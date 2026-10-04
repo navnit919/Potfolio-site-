@@ -8210,3 +8210,15 @@ select:focus-visible {
     border-radius: 0 !important;
   }
 }
+/ *   - - -   M O B I L E   L A Y O U T   F I X E S   - - -   * /  
+ /* --- MOBILE LAYOUT FIXES --- */
+@media (max-width: 768px) {
+  html, body { overflow-x: hidden !important; width: 100% !important; max-width: 100vw !important; }
+  .stage-header-bar, .awards-banner-header, .bento-header, .quick-pill-left, .quick-actions-right, .header-action-group { flex-wrap: wrap !important; height: auto !important; }
+  .mac-window, .project-card, .specs-modal-content, .project-card-v2, .cv-entry, .cv-entry-card { width: 100% !important; max-width: 100vw !important; box-sizing: border-box !important; overflow-wrap: break-word !important; word-wrap: break-word !important; }
+  .filter-pills-bar, .card-pill-row, .project-tags, .cv-entry-tags, .tags, .nav-links, .quick-pill-left { flex-wrap: wrap !important; overflow-x: hidden !important; }
+  p, h1, h2, h3, h4, h5, h6, span, a, li { max-width: 100% !important; word-break: break-word !important; overflow-wrap: break-word !important; }
+  .page-stage, .bookshelf-viewport { padding-left: 0.8rem !important; padding-right: 0.8rem !important; max-width: 100vw !important; box-sizing: border-box !important; overflow-x: hidden !important; }
+  .breadcrumb-file { white-space: normal !important; word-break: break-all !important; }
+  .editorial-title, .editorial-subtitle { word-wrap: break-word !important; hyphens: auto !important; }
+}
