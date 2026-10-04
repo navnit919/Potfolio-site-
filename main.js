@@ -1,4 +1,4 @@
-﻿/* =====================================================================
+/* =====================================================================
    Navnit Kumar — Portfolio Interactive Systems Controller
    Theme: Deep-Tech Cyber-Dark Titanium & Frosted Glass / Clean Studio Mode
    Features: Command Palette (Ctrl+K), Web Audio Synthesizer,
@@ -2723,10 +2723,57 @@
     }
   }
 
+  /* ===================================================================
+     99. CERTIFICATE LIGHTBOX MODAL
+     =================================================================== */
+  function initCertLightbox() {
+    var certModal = document.getElementById("certModal");
+    var certModalImg = document.getElementById("certModalImg");
+    var certModalClose = document.querySelector(".cert-modal-close");
+
+    if (certModal && certModalImg && certModalClose) {
+      var certLinks = document.querySelectorAll(".cert-link");
+      
+      certLinks.forEach(function(link) {
+        link.addEventListener("click", function(e) {
+          e.preventDefault();
+          var href = this.getAttribute("href");
+          if (href && href !== "#") {
+            certModalImg.src = href;
+            certModal.style.display = "block";
+          }
+        });
+      });
+
+      certModalClose.addEventListener("click", function() {
+        certModal.style.display = "none";
+        certModalImg.src = "";
+      });
+
+      certModal.addEventListener("click", function(e) {
+        if (e.target === certModal) {
+          certModal.style.display = "none";
+          certModalImg.src = "";
+        }
+      });
+
+      document.addEventListener("keydown", function(e) {
+        if (e.key === "Escape" && certModal.style.display === "block") {
+          certModal.style.display = "none";
+          certModalImg.src = "";
+        }
+      });
+    }
+  }
+
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", initNavnitChatbot);
+    document.addEventListener("DOMContentLoaded", function() {
+      initNavnitChatbot();
+      initCertLightbox();
+    });
   } else {
     initNavnitChatbot();
+    initCertLightbox();
   }
 })();
 
