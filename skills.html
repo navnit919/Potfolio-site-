@@ -1,0 +1,461 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Technical Skills &amp; Toolkit � Navnit Kumar</title>
+  <meta name="keywords" content="Navnit Kumar, Navnit Portfolio, Navnit NIT Nagaland, Navnit Kumar NIT Nagaland, Electrical Engineering, Software Developer, EEE NIT Nagaland" />
+  <meta name="description" content="Technical toolkit and engineered stack: Microcontrollers (ESP32, Arduino), Edge AI (YOLOv8, OpenCV, XGBoost), and Power Systems (33kV MRS, Substation Switchgear) by Navnit Kumar." />
+  <meta property="og:title" content="Technical Skills &amp; Toolkit � Navnit Kumar" />
+  <meta property="og:description" content="Microcontrollers, edge computer-vision pipelines &amp; high-voltage electrical architectures." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Fredoka:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Orbitron:wght@600;700;800;900&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bookshelf-layout" data-theme="light">
+
+  <!-- Mobile Navigation Top Bar -->
+  <header class="mobile-top-bar" aria-label="Mobile Navigation">
+    <button type="button" class="mobile-nav-toggle-btn" aria-label="Toggle Project Explorer">
+      <span>📂</span> <span>Explorer</span>
+    </button>
+    <div class="mobile-brand-pill">
+      <img src="images/profile_photo.jpeg" alt="Navnit" onerror="this.src='https://ui-avatars.com/api/?name=Navnit&background=e2d9cc&color=4a3e35'" />
+      <span>Navnit Kumar</span>
+    </div>
+    <div class="mobile-quick-actions">
+      <button type="button" class="mobile-quick-btn theme-toggle-btn" title="Toggle Light / Dark Theme" aria-label="Toggle Theme">
+        <span class="theme-icon">🌓</span>
+      </button>
+      <button type="button" class="mobile-quick-btn cmd-palette-trigger" title="Command Palette (Ctrl+K)" aria-label="Search">
+        <span>📂</span>
+      </button>
+      <a href="cv.html" class="mobile-quick-btn" title="View Full Interactive CV" aria-label="View CV">📄</a>
+    </div>
+  </header>
+
+  <!-- Background Liquid Aurora Mesh -->
+  <div class="aurora-container" aria-hidden="true">
+    <div class="aurora-orb orb-1"></div>
+    <div class="aurora-orb orb-2"></div>
+    <div class="aurora-orb orb-3"></div>
+    <div class="aurora-orb orb-4"></div>
+    <div class="aurora-orb orb-5"></div>
+  </div>
+
+  <!-- ==================== ANIMATED GEOMETRIC SHAPES LAYER ==================== -->
+  <div class="geo-shapes-layer" aria-hidden="true">
+    <div class="geo-ring geo-ring-1"></div>
+    <div class="geo-ring geo-ring-2"></div>
+    <div class="geo-ring geo-ring-3"></div>
+    <div class="geo-ring geo-ring-4"></div>
+    <div class="geo-dash geo-dash-1"></div>
+    <div class="geo-dash geo-dash-2"></div>
+    <div class="geo-dash geo-dash-3"></div>
+    <div class="geo-dot geo-dot-1"></div>
+    <div class="geo-dot geo-dot-2"></div>
+    <div class="geo-dot geo-dot-3"></div>
+    <div class="geo-dot geo-dot-4"></div>
+    <div class="geo-dot geo-dot-5"></div>
+  </div>
+
+  <nav class="glass-vertical-nav" aria-label="Main Navigation">
+    <div class="nav-brand">
+      <img src="images/profile_photo.jpeg" alt="Navnit" onerror="this.src='https://ui-avatars.com/api/?name=Navnit&background=e2d9cc&color=4a3e35'" />
+    </div>
+    
+    <div class="nav-links">
+      <a href="index.html" class="nav-item" title="Home">
+        <span class="nav-icon">⚡</span>
+      </a>
+      <a href="about.html" class="nav-item" title="About">
+        <span class="nav-icon">📝</span>
+      </a>
+      <a href="skills.html" class="nav-item active" title="Skills">
+        <span class="nav-icon">💡</span>
+      </a>
+      <a href="projects.html" class="nav-item" title="Projects">
+        <span class="nav-icon">📁</span>
+      </a>
+      <a href="experience.html" class="nav-item" title="Experience">
+        <span class="nav-icon">🏗️</span>
+      </a>
+      <a href="cv.html" class="nav-item" title="CV">
+        <span class="nav-icon">📄</span>
+      </a>
+      <a href="contact.html" class="nav-item" title="Contact">
+        <span class="nav-icon">📫</span>
+      </a>
+    </div>
+
+    <div class="nav-bottom-actions">
+      <button type="button" class="nav-item theme-toggle-btn" title="Toggle Theme">
+        <span class="nav-icon theme-icon">☀️</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== MAIN STAGE ==================== -->
+  <main class="page-stage">
+    <header class="stage-header-bar">
+      <span class="breadcrumb-file">explorer &gt; skills &gt; <strong>toolkit.jsx</strong></span>
+      <div class="header-action-group">
+        <button type="button" class="quick-utility-btn cmd-btn cmd-palette-trigger" title="Command Palette (Ctrl+K)">
+          <span>🔍 ⌘K Search</span>
+        </button>
+        <button type="button" class="quick-utility-btn theme-btn theme-toggle-btn" title="Toggle Light / Dark Theme">
+          <span class="theme-icon">🌓</span>
+          <span class="theme-text">Dark</span>
+        </button>
+        <a href="cv.html" class="resume-pill-btn highlight">View Full CV ??</a>
+        <a href="index.html" class="resume-pill-btn">▪  Back to Home</a>
+      </div>
+    </header>
+
+    <h1 class="editorial-title">Engineered Stack &amp; Toolkit</h1>
+    <p class="editorial-subtitle">Microcontrollers, edge computer-vision pipelines &amp; high-voltage electrical architectures</p>
+
+    <!-- Interactive Search / Filter Bar -->
+    <div class="skill-search-box">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" class="search-icon">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+      <input type="text" id="skill-search-input" placeholder="Search skills, microcontrollers, AI models, tools (e.g. YOLO, ESP32, Python, Substation)..." />
+      <span class="search-shortcut">▪ K</span>
+    </div>
+
+    <div class="skills-grid" id="skills-container">
+
+      <!-- ================= 01. Embedded Systems & Microcontrollers ================= -->
+      <article class="glass-panel skill-card detailed-skill-card" data-keywords="esp32 arduino raspberry pi esp-now uart spi i2c bldc esc flight controller imu sensors robotics hardware">
+        <div>
+          <div class="skill-head">
+            <h3>Embedded Systems &amp; IoT</h3>
+            <span class="skill-num">// 01</span>
+          </div>
+          <p class="skill-sub">Low-latency firmware, sensor fusion &amp; peer-to-peer protocols</p>
+
+          <div class="skill-meter-list">
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">ESP32 &amp; ESP-NOW Protocol</span>
+                <span class="meter-val">Advanced</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 90%;"></div></div>
+              <p class="meter-desc">P2P connectionless mesh, sub-5ms packet telemetry, hardware timers, ADC reading.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">Arduino Uno &amp; Microcontroller C</span>
+                <span class="meter-val">Proficient</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 88%;"></div></div>
+              <p class="meter-desc">Microsecond pulse timing, PWM duty cycle tuning, servo sweeps, UART serial stream.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">Sensor Fusion (Radar, IMU, ToF)</span>
+                <span class="meter-val">Proficient</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 84%;"></div></div>
+              <p class="meter-desc">24GHz mmWave radar, HC-SR04 ultrasonic, MPU6050 6-axis IMU, FSR pressure nodes.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">Avionics &amp; Multirotor Hardware</span>
+                <span class="meter-val">Hands-On</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 82%;"></div></div>
+              <p class="meter-desc">KK2.1.5/APM flight controller calibration, 30A SimonK ESC flashing, FlySky RF receiver.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tag-cloud" style="margin-top: 1.2rem;">
+          <span class="highlight">ESP32</span>
+          <span class="highlight">ESP-NOW (V2V/V2I)</span>
+          <span class="highlight">mmWave Radar</span>
+          <span>Arduino Uno</span>
+          <span>Ultrasonic ToF</span>
+          <span>Raspberry Pi</span>
+          <span>Flight Avionics</span>
+          <span>UART / SPI / I2C</span>
+        </div>
+      </article>
+
+      <!-- ================= 02. Edge AI & Computer Vision ================= -->
+      <article class="glass-panel skill-card detailed-skill-card" data-keywords="yolov8 easyocr ai assistant chatbot opencv pytorch mediapipe densenet121 xgboost machine learning deep learning rtsp edge ai vision">
+        <div>
+          <div class="skill-head">
+            <h3>Edge AI &amp; Computer Vision</h3>
+            <span class="skill-num">// 02</span>
+          </div>
+          <p class="skill-sub">Real-time object detection, OCR &amp; deep learning telemetry</p>
+
+          <div class="skill-meter-list">
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">YOLOv8 &amp; EasyOCR Pipelines</span>
+                <span class="meter-val">Advanced</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 90%;"></div></div>
+              <p class="meter-desc">Violation detection (helmets, red light, wrong side), plate localization, EasyOCR character extraction.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">OpenCV Matrix Operations</span>
+                <span class="meter-val">Proficient</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 86%;"></div></div>
+              <p class="meter-desc">Video stream frame capture, virtual trigger lines, unique centroid tracking IDs, contour masks.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">MediaPipe Kinematic Tracking</span>
+                <span class="meter-val">Proficient</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 82%;"></div></div>
+              <p class="meter-desc">33-landmark skeletal pose extraction, knee angle flexion, adduction moment estimation.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">DenseNet-121 &amp; Multimodal AI</span>
+                <span class="meter-val">Applied</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 80%;"></div></div>
+              <p class="meter-desc">Knee X-ray radiograph KL grading (93.6% acc), XGBoost multimodal fusion, multilingual NER localization.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tag-cloud" style="margin-top: 1.2rem;">
+          <span class="highlight">YOLOv8</span>
+          <span class="highlight">EasyOCR</span>
+          <span class="highlight">AI Traffic Assistant</span>
+          <span>OpenCV</span>
+          <span>MediaPipe</span>
+          <span>DenseNet-121</span>
+          <span>XGBoost</span>
+          <span>PyTorch</span>
+        </div>
+      </article>
+
+      <!-- ================= 03. Electrical & Power Engineering ================= -->
+      <article class="glass-panel skill-card detailed-skill-card" data-keywords="power systems blw varanasi indian railways 33kv mrs substation traction motors transformers switchgear relays circuits">
+        <div>
+          <div class="skill-head">
+            <h3>Power Systems &amp; Machines</h3>
+            <span class="skill-num">// 03</span>
+          </div>
+          <p class="skill-sub">High-voltage grid intake, locomotive traction &amp; protection</p>
+
+          <div class="skill-meter-list">
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">33kV Receiving Substation (MRS)</span>
+                <span class="meter-val">Fieldwork Trained</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 86%;"></div></div>
+              <p class="meter-desc">Step-down transformer banks (33kV to 6.6kV/415V), SF6 circuit breakers, busbar schemes.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">Locomotive Traction Motors</span>
+                <span class="meter-val">Fieldwork Trained</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 85%;"></div></div>
+              <p class="meter-desc">3-phase asynchronous traction motors, ALCO &amp; GM diesel-electric alternator harnesses.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">Switchgear &amp; Protective Relays</span>
+                <span class="meter-val">Proficient</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 82%;"></div></div>
+              <p class="meter-desc">Differential, overcurrent, and earth-fault relay coordination; power factor correction banks.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">Analog &amp; Digital Circuit Design</span>
+                <span class="meter-val">Award Winner</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 88%;"></div></div>
+              <p class="meter-desc">1st Prize IEEE IAS Circuit Design; H-bridge drivers, LC noise filtering, PCB layout logic.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tag-cloud" style="margin-top: 1.2rem;">
+          <span class="highlight">33kV Substation (MRS)</span>
+          <span class="highlight">Traction Motors</span>
+          <span class="highlight">Switchgear Protection</span>
+          <span>SF6 Breakers</span>
+          <span>Protective Relays</span>
+          <span>Power Transformers</span>
+          <span>Circuit Analysis</span>
+        </div>
+      </article>
+
+      <!-- ================= 04. Programming & Software ================= -->
+      <article class="glass-panel skill-card detailed-skill-card" data-keywords="c c++ python json cli tools embedded c sql flask streamlit html5 css3 javascript git algorithms software data structures">
+        <div>
+          <div class="skill-head">
+            <h3>Programming &amp; Software</h3>
+            <span class="skill-num">// 04</span>
+          </div>
+          <p class="skill-sub">Core systems programming, CLI engineering, data pipelines &amp; dashboards</p>
+
+          <div class="skill-meter-list">
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">Python &amp; CLI Architecture</span>
+                <span class="meter-val">Advanced</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 92%;"></div></div>
+              <p class="meter-desc">JSON persistence, CRUD CLI systems, input validation, game state engines, OpenCV/YOLO inference &amp; PyTorch loaders.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">C &amp; C++ Systems</span>
+                <span class="meter-val">Advanced</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 88%;"></div></div>
+              <p class="meter-desc">Pointers, memory management, low-level data structures, embedded firmware loops, timer interrupts.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">Flask &amp; Web Dashboards</span>
+                <span class="meter-val">Proficient</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 82%;"></div></div>
+              <p class="meter-desc">Real-time surveillance monitoring web apps, live telemetry plots, REST API endpoints, vanilla JS frontend.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">JSON Persistence &amp; SQL</span>
+                <span class="meter-val">Proficient</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 84%;"></div></div>
+              <p class="meter-desc">Structured serialization, relational schema design, violation audit logging, and data validation.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tag-cloud" style="margin-top: 1.2rem;">
+          <span class="highlight">Python</span>
+          <span class="highlight">JSON Persistence</span>
+          <span class="highlight">CLI Tools</span>
+          <span>C / C++</span>
+          <span>Embedded C</span>
+          <span>Flask</span>
+          <span>SQL</span>
+          <span>HTML5 / CSS3</span>
+        </div>
+      </article>
+
+      <!-- ================= 05. CAD, Prototyping & Tools ================= -->
+      <article class="glass-panel skill-card detailed-skill-card" data-keywords="freecad 3d printing cura cttc bhubaneswar latex git github vs code excel tools fabrication">
+        <div>
+          <div class="skill-head">
+            <h3>CAD &amp; Engineering Tools</h3>
+            <span class="skill-num">// 05</span>
+          </div>
+          <p class="skill-sub">Parametric modeling, additive fabrication &amp; developer toolchain</p>
+
+          <div class="skill-meter-list">
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">FreeCAD &amp; 3D Part Design</span>
+                <span class="meter-val">Proficient</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 82%;"></div></div>
+              <p class="meter-desc">Parametric part modeling, constraint sketching, dimensional tolerancing for 3D prints.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">3D Printing Slicing (Cura)</span>
+                <span class="meter-val">Certified</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 85%;"></div></div>
+              <p class="meter-desc">Trained by CTTC Bhubaneswar; infill geometry, layer heights, support overhang tuning.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">Git &amp; GitHub Version Control</span>
+                <span class="meter-val">Proficient</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 86%;"></div></div>
+              <p class="meter-desc">Repository management, branch workflows, markdown documentation, release tagging.</p>
+            </div>
+
+            <div class="meter-item">
+              <div class="meter-info">
+                <span class="meter-name">LaTeX &amp; Technical Documentation</span>
+                <span class="meter-val">Proficient</span>
+              </div>
+              <div class="meter-bar-track"><div class="meter-bar-fill" style="width: 84%;"></div></div>
+              <p class="meter-desc">Publication-grade mathematical typesetting, engineering reports, structured abstracts.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tag-cloud" style="margin-top: 1.2rem;">
+          <span class="highlight">FreeCAD</span>
+          <span class="highlight">3D Printing (Cura)</span>
+          <span class="highlight">Git &amp; GitHub</span>
+          <span>LaTeX</span>
+          <span>VS Code</span>
+          <span>MS Excel</span>
+          <span>Oscilloscope</span>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- CV Prompt Banner -->
+    <section class="cv-prompt-banner" style="margin-top: 2rem;">
+      <div class="cv-prompt-content">
+        <h3>Need to see these skills demonstrated in production?</h3>
+        <p>Inspect complete project code, circuit schematics, live video demos, and academic coursework logs in the Curriculum Vitae.</p>
+      </div>
+      <div class="cv-prompt-actions">
+        <a href="cv.html" class="card-btn card-btn-primary">View Full Curriculum Vitae ??</a>
+        <a href="projects.html" class="card-btn card-btn-secondary">Explore Projects Gallery ➔</a>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+

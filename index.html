@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navnit Kumar � Electrical &amp; Electronics Engineering Portfolio</title>
+  <meta name="keywords" content="Navnit Kumar, Navnit Portfolio, Navnit NIT Nagaland, Navnit Kumar NIT Nagaland, Electrical Engineering, Software Developer, EEE NIT Nagaland" />
+  <meta name="description" content="Navnit Kumar � Electrical &amp; Electronics Engineering undergraduate at NIT Nagaland (CGPA 8.42). Specializing in edge computer-vision pipelines, 33kV locomotive power systems, and embedded IoT mesh networks." />
+  <meta property="og:title" content="Navnit Kumar � Electrical &amp; Electronics Engineering Portfolio" />
+  <meta property="og:description" content="Navnit Kumar � Electrical &amp; Electronics Engineering Portfolio �| Hardware, Edge AI &amp; Power Systems" />
+  <meta property="og:image" content="images/profile_photo.jpeg" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Premium Typography Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Fredoka:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Orbitron:wght@600;700;800;900&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bookshelf-layout" data-theme="light">
+
+  <!-- ==================== MOBILE NAVIGATION TOP BAR ==================== -->
+  <header class="mobile-top-bar" aria-label="Mobile Navigation">
+    <button type="button" class="mobile-nav-toggle-btn" aria-label="Toggle Project Explorer">
+      <span>📂</span> <span>Explorer</span>
+    </button>
+    <div class="mobile-brand-pill">
+      <img src="images/profile_photo.jpeg" alt="Navnit" onerror="this.src='https://ui-avatars.com/api/?name=Navnit&background=e2d9cc&color=4a3e35'" />
+      <span>Navnit Kumar</span>
+    </div>
+    <div class="mobile-quick-actions">
+      <button type="button" class="mobile-quick-btn theme-toggle-btn" title="Toggle Light / Dark Theme" aria-label="Toggle Theme">
+        <span class="theme-icon">🌓</span>
+      </button>
+      <button type="button" class="mobile-quick-btn cmd-palette-trigger" title="Command Palette (Ctrl+K)" aria-label="Search">
+        <span>📂</span>
+      </button>
+      <a href="cv.html" class="mobile-quick-btn" title="View Full Interactive CV" aria-label="View CV">📄</a>
+    </div>
+  </header>
+
+  <!-- ==================== BACKGROUND LIQUID AURORA MESH ==================== -->
+  <div class="aurora-container" aria-hidden="true">
+    <div class="aurora-orb orb-1"></div>
+    <div class="aurora-orb orb-2"></div>
+    <div class="aurora-orb orb-3"></div>
+    <div class="aurora-orb orb-4"></div>
+    <div class="aurora-orb orb-5"></div>
+  </div>
+
+  <!-- ==================== ANIMATED GEOMETRIC SHAPES LAYER ==================== -->
+  <div class="geo-shapes-layer" aria-hidden="true">
+    <div class="geo-ring geo-ring-1"></div>
+    <div class="geo-ring geo-ring-2"></div>
+    <div class="geo-ring geo-ring-3"></div>
+    <div class="geo-ring geo-ring-4"></div>
+    <div class="geo-dash geo-dash-1"></div>
+    <div class="geo-dash geo-dash-2"></div>
+    <div class="geo-dash geo-dash-3"></div>
+    <div class="geo-dot geo-dot-1"></div>
+    <div class="geo-dot geo-dot-2"></div>
+    <div class="geo-dot geo-dot-3"></div>
+    <div class="geo-dot geo-dot-4"></div>
+    <div class="geo-dot geo-dot-5"></div>
+  </div>
+
+
+  <!-- ==================== MODERN GLASS VERTICAL NAV ==================== -->
+  <nav class="glass-vertical-nav" aria-label="Main Navigation">
+    <div class="nav-brand">
+      <img src="images/profile_photo.jpeg" alt="Navnit" onerror="this.src='https://ui-avatars.com/api/?name=Navnit&background=e2d9cc&color=4a3e35'" />
+    </div>
+    
+    <div class="nav-links">
+      <a href="index.html" class="nav-item active" title="Home">
+        <span class="nav-icon">⚡</span>
+      </a>
+      <a href="about.html" class="nav-item" title="About">
+        <span class="nav-icon">📝</span>
+      </a>
+      <a href="skills.html" class="nav-item" title="Skills">
+        <span class="nav-icon">💡</span>
+      </a>
+      <a href="projects.html" class="nav-item" title="Projects">
+        <span class="nav-icon">📁</span>
+      </a>
+      <a href="experience.html" class="nav-item" title="Experience">
+        <span class="nav-icon">🏗️</span>
+      </a>
+      <a href="cv.html" class="nav-item" title="CV">
+        <span class="nav-icon">📄</span>
+      </a>
+      <a href="contact.html" class="nav-item" title="Contact">
+        <span class="nav-icon">📫</span>
+      </a>
+    </div>
+
+    <div class="nav-bottom-actions">
+      <button type="button" class="nav-item theme-toggle-btn" title="Toggle Theme">
+        <span class="nav-icon theme-icon">☀️</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== MAIN BOOKSHELF VIEWPORT ==================== -->
+  <main class="bookshelf-viewport" id="bookshelf-stage">
+
+    <!-- Top floating quick utility bar -->
+    <div class="bookshelf-quick-bar">
+      <div class="quick-pill-left">
+        <span class="academic-tag">NIT Nagaland � B.Tech EEE</span>
+        <span class="academic-tag score">CGPA 8.42</span>
+        <span class="academic-tag highlight-badge">🛠️ 7+ Engineered Builds</span>
+        <span class="academic-tag status-available"><span class="status-dot-mini"></span> Available for Roles</span>
+      </div>
+      <div class="quick-actions-right">
+        <button type="button" class="quick-utility-btn cmd-btn cmd-palette-trigger" id="cmd-palette-btn" title="Open Command Palette (Ctrl+K)">
+          <span>🔍 ⌘K Search</span>
+        </button>
+        <button type="button" class="quick-utility-btn theme-btn theme-toggle-btn" id="theme-toggle-btn" title="Toggle Light / Dark Theme">
+          <span class="theme-icon">🌓</span>
+          <span class="theme-text">Light</span>
+        </button>
+        <button type="button" class="quick-utility-btn" id="sound-toggle-btn" title="Toggle audio feedback">
+          <span class="sound-icon" id="sound-icon">🔊</span>
+          <span id="sound-text">Sound</span>
+        </button>
+        <a href="cv.html" class="quick-utility-btn highlight-btn" title="View Full Interactive CV">
+          <span>📄 View CV</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- HERO SECTION: Ultra-Modern Developer & Engineer Portfolio Hero with Canvas Particle Network -->
+    <header class="portfolio-hero-section">
+      <canvas id="hero-circuit-canvas" class="hero-circuit-canvas"></canvas>
+      <div class="hero-aurora-glow glow-1"></div>
+      <div class="hero-aurora-glow glow-2"></div>
+      <!-- Additional Floating Animation Particles -->
+      <div class="floating-particle p-1"></div>
+      <div class="floating-particle p-2"></div>
+      <div class="floating-particle p-3"></div>
+      <div class="floating-particle p-4"></div>
+      <div class="floating-particle p-5"></div>
+
+      <div class="portfolio-hero-grid">
+        <!-- Hero Left Column: Personal Narrative & Live Typing -->
+        <div class="hero-intro-column">
+          <div class="hero-greeting-row">
+            <span class="greeting-wave">👋</span>
+            <span class="greeting-label">Hello, World! I'm</span>
+            <div class="live-available-pill">
+              <span class="live-available-dot"></span>
+              <span>Available for Roles</span>
+            </div>
+          </div>
+
+          <h1 class="hero-developer-name">Navnit Kumar</h1>
+
+          <div class="hero-animated-title-box">
+            <span class="title-prefix">Engineering</span>
+            <span class="animated-typing-target" id="typing-hero-role">High-Voltage Electrical Infrastructure</span>
+            <span class="typing-cursor-blink">|</span>
+          </div>
+
+          <p class="hero-bio-narrative">
+            Undergraduate <strong>Electrical &amp; Electronics Engineer</strong> at <strong>NIT Nagaland (CGPA 8.42)</strong>. I develop high-performance physical hardware and intelligent software where industrial power distribution (33kV MRS Locomotive Traction at BLW), low-latency embedded firmware (&lt;5ms ESP-NOW mesh), and accelerated edge deep learning (55.1ms YOLOv8) converge.
+          </p>
+
+          <!-- Core Action Buttons -->
+          <div class="hero-action-buttons-row">
+            <a href="#workbench-section" class="portfolio-cta-btn primary-cta" id="btn-scroll-projects">
+              <span>🚀 Explore Projects ➔</span>
+            </a>
+            <a href="cv.html" class="portfolio-cta-btn secondary-cta" title="View Full Interactive CV">
+              <span>📄 View Verified CV</span>
+            </a>
+            <a href="contact.html" class="portfolio-cta-btn ghost-cta" title="Get in touch">
+              <span>💬 Let's Connect</span>
+            </a>
+            <a href="https://github.com/navnit919" target="_blank" rel="noopener" class="portfolio-cta-btn icon-cta" title="GitHub @navnit919">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Right Column: Interactive Profile Card with Holographic Border & Floating Badges -->
+        <div class="hero-identity-column">
+          <div class="profile-card-container" id="hero-profile-card">
+            <div class="profile-photo-wrapper">
+              <img src="images/profile_photo.jpeg" alt="Navnit Kumar" class="profile-avatar-img" id="profile-img" style="cursor: pointer;" title="Click to view next photo" onclick="cycleProfilePhoto()" />
+<script>
+  let profilePhotos = ["images/profile_suit.jpeg", "images/profile_photo.jpeg", "images/profile_podium.jpeg"];
+  let profileIndex = 0;
+  function cycleProfilePhoto() {
+    let imgEl = document.getElementById("profile-img");
+    imgEl.style.transition = "opacity 0.4s ease-in-out";
+    imgEl.style.opacity = "0.1";
+    setTimeout(() => {
+      profileIndex = (profileIndex + 1) % profilePhotos.length;
+      imgEl.src = profilePhotos[profileIndex];
+      imgEl.style.opacity = "1";
+    }, 400);
+  }
+  setInterval(cycleProfilePhoto, 4000); // 4 seconds
+</script>
+              <div class="profile-conic-glow"></div>
+            </div>
+
+            <!-- Floating Micro Badges with subtle bounce animation (Zero Overlap Layout) -->
+            <div class="floating-chip chip-top-center float-anim-top">
+              <span class="chip-icon">⚡</span>
+              <div class="chip-text">
+                <strong>YOLOv8 &amp; AI</strong>
+                <small>55.1ms Real-time Vision</small>
+              </div>
+            </div>
+
+            <div class="floating-chip chip-bottom-left float-anim-left">
+              <span class="chip-icon">💡</span>
+              <div class="chip-text">
+                <strong>NIT Nagaland</strong>
+                <small>CGPA 8.42 � EEE</small>
+              </div>
+            </div>
+
+            <div class="floating-chip chip-bottom-right float-anim-right">
+              <span class="chip-icon">⚡</span>
+              <div class="chip-text">
+                <strong>BLW Railways</strong>
+                <small>33kV Substation Fieldwork</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 5-PILLAR ANIMATED TELEMETRY STRIP (NSP Removed!) -->
+      <div class="hero-telemetry-strip" id="stats-counter-strip">
+        <div class="telemetry-node">
+          <span class="telemetry-num" data-target="8.42" data-decimals="2">8.42</span>
+          <span class="telemetry-label">NIT Nagaland CGPA</span>
+          <span class="telemetry-sub">Electrical &amp; Electronics</span>
+        </div>
+        <div class="telemetry-node highlight">
+          <span class="telemetry-num" data-target="55.1" data-decimals="1" data-suffix="ms">55.1ms</span>
+          <span class="telemetry-label">Edge AI Vision</span>
+          <span class="telemetry-sub">YOLOv8 RTSP Pipeline</span>
+        </div>
+        <div class="telemetry-node">
+          <span class="telemetry-num">33kV / 6.6kV</span>
+          <span class="telemetry-label">Locomotive Substation</span>
+          <span class="telemetry-sub">BLW Indian Railways</span>
+        </div>
+        <div class="telemetry-node">
+          <span class="telemetry-num" data-prefix="<" data-target="5" data-suffix="ms">&lt;5ms</span>
+          <span class="telemetry-label">ESP-NOW P2P Mesh</span>
+          <span class="telemetry-sub">Zero-Infra Telemetry</span>
+        </div>
+        <div class="telemetry-node builds">
+          <span class="telemetry-num" data-target="8" data-suffix="+">8+</span>
+          <span class="telemetry-label">Engineered Builds</span>
+          <span class="telemetry-sub">Hardware, AI &amp; Software</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- INTERACTIVE PROJECT DECK SELECTOR -->
+    <section class="tech-deck-section" id="workbench-section" aria-label="Engineered Systems Selector Deck">
+      <div class="deck-section-header">
+        <div class="deck-section-title">
+          <span class="deck-indicator-icon">🚀</span>
+          <span>SELECT ENGINEERED PROJECT // INTERACTIVE WORKBENCH</span>
+        </div>
+        <div class="deck-counter-badge">
+          <span>8 Active Builds</span>
+        </div>
+      </div>
+
+      <!-- Interactive Category Filter Bar -->
+      <div class="deck-filter-bar">
+        <button type="button" class="deck-filter-btn active" data-filter="all">All Builds (8)</button>
+        <button type="button" class="deck-filter-btn" data-filter="ai">🤖 Edge AI &amp; Vision</button>
+        <button type="button" class="deck-filter-btn" data-filter="iot">📡 Embedded IoT &amp; Mesh</button>
+        <button type="button" class="deck-filter-btn" data-filter="robotics">🚁 Robotics &amp; UAV</button>
+        <button type="button" class="deck-filter-btn" data-filter="software">💻 Python &amp; Software</button>
+      </div>
+
+      <div class="tech-deck-nav" id="spines-row" role="tablist" aria-label="Projects Deck">
+        <!-- Deck Item 0: MineSafe-X -->
+        <button type="button" class="tech-deck-item book-spine active-spine" data-index="0" data-category="iot" role="tab" aria-selected="true" title="Select MineSafe-X">
+          <div class="deck-item-top">
+            <span class="deck-item-code">// 01</span>
+            <span class="deck-pulse-dot"></span>
+          </div>
+          <div class="deck-item-icon-box">
+            <svg viewBox="0 0 24 24" class="deck-svg-icon">
+              <polygon points="12 2 2 22 22 22 12 2" />
+              <line x1="12" y1="9" x2="12" y2="14" />
+              <circle cx="12" cy="18" r="1" />
+            </svg>
+          </div>
+          <div class="deck-item-meta">
+            <h3 class="deck-item-name">MineSafe-X</h3>
+            <span class="deck-item-sub">Team Colliders � Fleet Safety</span>
+          </div>
+          <div class="deck-item-badge">ESP-NOW � TTC Engine</div>
+        </button>
+
+        <!-- Deck Item 1: Traffic AI -->
+        <button type="button" class="tech-deck-item book-spine" data-index="1" data-category="ai" role="tab" aria-selected="false" title="Select Traffic Violation AI">
+          <div class="deck-item-top">
+            <span class="deck-item-code">// 02</span>
+            <span class="deck-pulse-dot"></span>
+          </div>
+          <div class="deck-item-icon-box">
+            <svg viewBox="0 0 24 24" class="deck-svg-icon">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="12" y1="8" x2="12" y2="12" />
+              <line x1="12" y1="16" x2="12.01" y2="16" />
+            </svg>
+          </div>
+          <div class="deck-item-meta">
+            <h3 class="deck-item-name">Traffic Violation AI</h3>
+            <span class="deck-item-sub">YOLOv8, EasyOCR &amp; AI Chat</span>
+          </div>
+          <div class="deck-item-badge">YOLOv8 + EasyOCR</div>
+        </button>
+
+        <!-- Deck Item 2: Ostero AI -->
+        <button type="button" class="tech-deck-item book-spine" data-index="2" data-category="ai" role="tab" aria-selected="false" title="Select OA Risk Screening AI">
+          <div class="deck-item-top">
+            <span class="deck-item-code">// 03</span>
+            <span class="deck-pulse-dot"></span>
+          </div>
+          <div class="deck-item-icon-box">
+            <svg viewBox="0 0 24 24" class="deck-svg-icon">
+              <path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18z M12 8v8 M8 12h8" />
+            </svg>
+          </div>
+          <div class="deck-item-meta">
+            <h3 class="deck-item-name">OA Risk Screening AI</h3>
+            <span class="deck-item-sub">Multimodal OA (NER Region)</span>
+          </div>
+          <div class="deck-item-badge">4 Languages � Offline</div>
+        </button>
+
+        <!-- Deck Item 3: RC Vehicle -->
+        <button type="button" class="tech-deck-item book-spine" data-index="3" data-category="robotics" role="tab" aria-selected="false" title="Select Embedded RC Vehicle">
+          <div class="deck-item-top">
+            <span class="deck-item-code">// 04</span>
+            <span class="deck-pulse-dot"></span>
+          </div>
+          <div class="deck-item-icon-box">
+            <svg viewBox="0 0 24 24" class="deck-svg-icon">
+              <rect x="3" y="11" width="18" height="6" rx="2" />
+              <circle cx="7" cy="17" r="2.5" />
+              <circle cx="17" cy="17" r="2.5" />
+              <path d="M5 11l2-4h10l2 4" />
+            </svg>
+          </div>
+          <div class="deck-item-meta">
+            <h3 class="deck-item-name">Dual H-Bridge RC</h3>
+            <span class="deck-item-sub">High-Current Robotics</span>
+          </div>
+          <div class="deck-item-badge">PWM / RF Link</div>
+        </button>
+
+        <!-- Deck Item 4: F450 Multirotor -->
+        <button type="button" class="tech-deck-item book-spine" data-index="4" data-category="robotics" role="tab" aria-selected="false" title="Select F450 Multirotor UAV">
+          <div class="deck-item-top">
+            <span class="deck-item-code">// 05</span>
+            <span class="deck-pulse-dot"></span>
+          </div>
+          <div class="deck-item-icon-box">
+            <svg viewBox="0 0 24 24" class="deck-svg-icon">
+              <polygon points="12 2 15 8 22 9 17 14 18 21 12 17 6 21 7 14 2 9 9 8 12 2" />
+            </svg>
+          </div>
+          <div class="deck-item-meta">
+            <h3 class="deck-item-name">F450 Multirotor</h3>
+            <span class="deck-item-sub">Aerial UAV Drone</span>
+          </div>
+          <div class="deck-item-badge">KK2.1.5 Avionics</div>
+        </button>
+
+        <!-- Deck Item 5: Ultrasonic Radar -->
+        <button type="button" class="tech-deck-item book-spine" data-index="5" data-category="iot" role="tab" aria-selected="false" title="Select Ultrasonic Radar">
+          <div class="deck-item-top">
+            <span class="deck-item-code">// 06</span>
+            <span class="deck-pulse-dot"></span>
+          </div>
+          <div class="deck-item-icon-box">
+            <svg viewBox="0 0 24 24" class="deck-svg-icon">
+              <circle cx="12" cy="12" r="10" />
+              <circle cx="12" cy="12" r="6" />
+              <circle cx="12" cy="12" r="2" />
+            </svg>
+          </div>
+          <div class="deck-item-meta">
+            <h3 class="deck-item-name">Ultrasonic Radar</h3>
+            <span class="deck-item-sub">Time-of-Flight Sonar</span>
+          </div>
+          <div class="deck-item-badge">HC-SR04 / UART</div>
+        </button>
+
+        <!-- Deck Item 6: Python Contact Manager -->
+        <button type="button" class="tech-deck-item book-spine" data-index="6" data-category="software" role="tab" aria-selected="false" title="Select Contact Management System">
+          <div class="deck-item-top">
+            <span class="deck-item-code">// 07</span>
+            <span class="deck-pulse-dot"></span>
+          </div>
+          <div class="deck-item-icon-box">
+            <svg viewBox="0 0 24 24" class="deck-svg-icon">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+          </div>
+          <div class="deck-item-meta">
+            <h3 class="deck-item-name">Contact Manager</h3>
+            <span class="deck-item-sub">Python &amp; JSON Storage</span>
+          </div>
+          <div class="deck-item-badge">Python � CLI Tool</div>
+        </button>
+
+        <!-- Deck Item 7: Python Adventure Game -->
+        <button type="button" class="tech-deck-item book-spine" data-index="7" data-category="software" role="tab" aria-selected="false" title="Select Python Adventure Game">
+          <div class="deck-item-top">
+            <span class="deck-item-code">// 08</span>
+            <span class="deck-pulse-dot"></span>
+          </div>
+          <div class="deck-item-icon-box">
+            <svg viewBox="0 0 24 24" class="deck-svg-icon">
+              <polygon points="5 3 19 12 5 21 5 3" />
+            </svg>
+          </div>
+          <div class="deck-item-meta">
+            <h3 class="deck-item-name">Adventure Game</h3>
+            <span class="deck-item-sub">Choice Story &amp; Random</span>
+          </div>
+          <div class="deck-item-badge">Python � Game Dev</div>
+        </button>
+      </div>
+    </section>
+
+    <!-- CENTRAL BENTO WORKSTATION STAGE (Two-Column Interactive Console) -->
+    <section class="bento-workstation-stage" id="book-card-display">
+      <div class="card-art-canvas" id="card-art-canvas"></div>
+      <div class="card-art-overlay"></div>
+
+      <!-- Left Column: Technical Dossier -->
+      <article class="stage-dossier-col">
+        <div class="stage-top-meta">
+          <div class="status-chip" id="card-status-badge">
+            <span class="status-dot"></span>
+            <span id="card-status-text">System Operational</span>
+          </div>
+          <span class="dossier-serial-code" id="dossier-code">SPEC-ID: NIT-EEE-2026</span>
+        </div>
+
+        <h2 class="card-title" id="card-title">MineSafe-X � Making Mining Transport Safer</h2>
+        <p class="card-subtitle" id="card-subtitle">Team Colliders � Smart Mining Vehicle Collision Prevention</p>
+
+        <p class="card-summary" id="card-summary">
+          Smart safety system by Team Colliders engineered to reduce collision risks between heavy vehicles in mines. Combines GPS, mmWave radar, ultrasonic sensors, and local ESP-NOW V2V/V2I communication (&lt;5ms, zero internet needed) with dynamic Time to Collision (TTC) mobile warnings and central fleet monitoring.
+        </p>
+
+        <!-- Dynamic pill tags -->
+        <div class="card-pill-row" id="card-tags">
+          <span>Team Colliders</span>
+          <span>ESP-NOW (&lt;5ms)</span>
+          <span>mmWave Radar</span>
+          <span>GPS &amp; V2V/V2I</span>
+          <span>TTC Engine</span>
+          <span>Fleet Tower</span>
+        </div>
+
+        <!-- Quick Spec Highlights Strip -->
+        <div class="stage-quick-specs" id="stage-quick-specs">
+          <div class="quick-spec-item">
+            <span class="qspec-label">Response Latency</span>
+            <strong class="qspec-val" id="qspec-latency">&lt;5 ms (ESP-NOW)</strong>
+          </div>
+          <div class="quick-spec-item">
+            <span class="qspec-label">Telemetry Coverage</span>
+            <strong class="qspec-val" id="qspec-coverage">360� Radar &amp; GPS</strong>
+          </div>
+          <div class="quick-spec-item">
+            <span class="qspec-label">Deployment Status</span>
+            <strong class="qspec-val" id="qspec-status">Bench Tested &amp; Field Verified</strong>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="card-actions-row">
+          <button type="button" class="card-btn card-btn-primary" id="btn-inspect-specs">
+            <span>Inspect Architecture &amp; Simulator 🔍</span>
+          </button>
+          <a href="projects.html" class="card-btn card-btn-secondary" id="card-primary-link">
+            <span>View Full Details ➔</span>
+          </a>
+          <a href="https://github.com/navnit919" target="_blank" rel="noopener" class="card-btn card-btn-icon"
+            id="card-github-link" title="Open GitHub Profile">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path
+                d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.1-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z" />
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- Right Column: Visual Telemetry Monitor & Proof Gallery -->
+      <aside class="stage-monitor-col">
+        <div class="monitor-bezel">
+          <div class="monitor-top-bar">
+            <div class="monitor-status-left">
+              <span class="live-dot"></span>
+              <span class="monitor-status-text" id="monitor-status-text">HARDWARE TELEMETRY // ACTIVE</span>
+            </div>
+            <div class="monitor-meta-right">
+              <span class="monitor-tag">1080P PROOF</span>
+              <span class="monitor-tag fps">60 FPS</span>
+            </div>
+          </div>
+
+          <div class="monitor-screen-frame">
+            <img src="images/minesafe.jpg" id="stage-preview-img" alt="Engineered System Hardware Preview" />
+            <div class="monitor-overlay-reticle">
+              <div class="reticle-corner tl"></div>
+              <div class="reticle-corner tr"></div>
+              <div class="reticle-corner bl"></div>
+              <div class="reticle-corner br"></div>
+              <span class="reticle-caption" id="stage-img-caption">PROTOTYPE TELEMETRY FEED</span>
+            </div>
+          </div>
+
+          <!-- Interactive Proof Thumbnails Strip -->
+          <div class="stage-gallery-bar" id="stage-proof-thumbs">
+            <!-- Dynamically populated with clickable thumbnails -->
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- CORE ENGINEERING PILLARS BENTO SECTION -->
+    <section class="home-bento-section" aria-label="Core Engineering Pillars">
+      <div class="home-section-heading">
+        <span class="section-tag">// engineered_disciplines</span>
+        <h2 class="section-title">Core Engineering Competencies</h2>
+        <p class="section-subtitle">Bridging physical high-voltage electrical hardware, low-level silicon firmware, and real-time edge intelligence.</p>
+      </div>
+
+      <div class="home-bento-grid">
+        <!-- Bento Card 1: High-Voltage Power Systems -->
+        <div class="bento-pillar-card">
+          <div class="pillar-icon-box power">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+            </svg>
+          </div>
+          <span class="pillar-tag">High-Voltage Infrastructure</span>
+          <h3 class="pillar-title">33kV Substation &amp; Locomotive Power</h3>
+          <p class="pillar-desc">
+            Industrial engineering analysis at Banaras Locomotive Works (BLW). Investigated 33kV receiving substation switchgear, SF6 circuit breakers, numerical protection relay coordination, and 3-phase asynchronous traction motors in TAS.
+          </p>
+          <div class="pillar-footer">
+            <span class="pillar-stat">33kV / 6.6kV Grid</span>
+            <a href="experience.html" class="pillar-link">Read Fieldwork ➔</a>
+          </div>
+        </div>
+
+        <!-- Bento Card 2: Edge AI & Vision -->
+        <div class="bento-pillar-card highlight-border">
+          <div class="pillar-icon-box vision">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+              <circle cx="12" cy="12" r="3" />
+            </svg>
+          </div>
+          <span class="pillar-tag">Edge AI &amp; Deep Learning</span>
+          <h3 class="pillar-title">Real-Time Computer Vision &amp; AI Assistant</h3>
+          <p class="pillar-desc">
+            Engineered automated traffic violation detection with YOLOv8, unique vehicle ID tracking, EasyOCR license-plate reading, and an integrated LLM AI Traffic Assistant. Developed a 4-tier multimodal early Osteoarthritis screening system for the North Eastern Region across Assamese, Bengali, Hindi &amp; English.
+          </p>
+          <div class="pillar-footer">
+            <span class="pillar-stat">YOLOv8 + EasyOCR � AI Chatbot</span>
+            <a href="projects.html" class="pillar-link">View Models ➔</a>
+          </div>
+        </div>
+
+        <!-- Bento Card 3: Embedded IoT & P2P Mesh -->
+        <div class="bento-pillar-card">
+          <div class="pillar-icon-box mesh">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12.55a11 11 0 0 1 14.08 0 M1.42 9a16 16 0 0 1 21.16 0 M8.53 16.11a6 6 0 0 1 6.95 0 M12 20h.01" />
+            </svg>
+          </div>
+          <span class="pillar-tag">Embedded IoT &amp; Microcontrollers</span>
+          <h3 class="pillar-title">Low-Latency P2P RF Networks</h3>
+          <p class="pillar-desc">
+            Zero-infrastructure ESP-NOW mesh networking achieving &lt;5ms packet transmission for industrial hazard telemetry. Integrated 24GHz mmWave radar, ultrasonic pulse time-of-flight, and UART serial scopes.
+          </p>
+          <div class="pillar-footer">
+            <span class="pillar-stat">&lt;5ms Mesh � 24GHz Radar</span>
+            <a href="skills.html" class="pillar-link">Inspect Hardware ➔</a>
+          </div>
+        </div>
+
+        <!-- Bento Card 4: Aerial Robotics & UAVs -->
+        <div class="bento-pillar-card">
+          <div class="pillar-icon-box drone">
+            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 15 8 22 9 17 14 18 21 12 17 6 21 7 14 2 9 9 8 12 2" />
+            </svg>
+          </div>
+          <span class="pillar-tag">Robotics &amp; Flight Avionics</span>
+          <h3 class="pillar-title">Autonomous Aerial Robotics</h3>
+          <p class="pillar-desc">
+            Constructed and calibrated an F450 multirotor UAV with KK2.1.5 PID flight stabilization, 30A ESC brushless motor drivers, high-discharge LiPo harness, and 2.4GHz RF telemetry during NIELIT certification.
+          </p>
+          <div class="pillar-footer">
+            <span class="pillar-stat">KK2.1.5 Avionics � 4-Axis</span>
+            <a href="projects.html" class="pillar-link">View Flight Specs ➔</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VERIFIED HONORS & AWARDS BANNER -->
+    <section class="home-awards-banner" aria-label="Verified Academic & Technical Honors">
+      <div class="awards-banner-header">
+        <div class="awards-badge-title">
+          <span class="trophy-emoji">🏆</span>
+          <h3>Verified Honors &amp; Merit Recognitions</h3>
+        </div>
+        <a href="cv.html" class="awards-cv-link">View in Verified CV ➔</a>
+      </div>
+
+      <div class="awards-grid">
+        <div class="award-card fieldwork-award">
+          <div class="award-top">
+            <span class="award-type">Industrial Certification</span>
+            <span class="award-rank">Certified</span>
+          </div>
+          <h4 class="award-name">33kV Locomotive Traction &amp; MRS Substation</h4>
+          <p class="award-org">Banaras Locomotive Works (BLW), Indian Railways, Varanasi</p>
+          <div class="award-meta-row">
+            <span class="award-status">✅ Accredited Fieldwork</span>
+            <a href="experience.html" class="award-verify-link">Inspect Fieldwork ➔</a>
+          </div>
+        </div>
+
+        <div class="award-card">
+          <div class="award-top">
+            <span class="award-type">Technical Hackathon</span>
+            <span class="award-rank">1st Place</span>
+          </div>
+          <h4 class="award-name">IEEE Circuit Design Hackathon</h4>
+          <p class="award-org">National Institute of Technology Nagaland</p>
+          <div class="award-meta-row">
+            <span class="award-status">🥇 First Prize Winner</span>
+            <a href="cv.html#awards" class="award-verify-link">Inspect Proof ➔</a>
+          </div>
+        </div>
+
+        <div class="award-card">
+          <div class="award-top">
+            <span class="award-type">All-India Quiz</span>
+            <span class="award-rank">1st Rank</span>
+          </div>
+          <h4 class="award-name">National Quantum Computing Quiz</h4>
+          <p class="award-org">All India Technical Competition</p>
+          <div class="award-meta-row">
+            <span class="award-status">🥇 Ranked #1 Nationally</span>
+            <a href="cv.html#awards" class="award-verify-link">Inspect Proof ➔</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO CONNECT & COLLABORATION FOOTER CTA -->
+    <section class="home-connect-banner" aria-label="Connect and Collaborate">
+      <div class="connect-banner-inner">
+        <div class="connect-text-block">
+          <span class="connect-tag">// let's_build_together</span>
+          <h3 class="connect-title">Have an engineering role or innovative build in mind?</h3>
+          <p class="connect-desc">I am actively open to core electrical hardware, embedded firmware, and edge AI engineering roles &amp; research collaborations.</p>
+        </div>
+        <div class="connect-actions-block">
+          <a href="mailto:nkmaurya934124@gmail.com" class="connect-btn-email">
+            <span>📧 nkmaurya934124@gmail.com</span>
+          </a>
+          <a href="https://github.com/navnit919" target="_blank" rel="noopener" class="connect-btn-email">
+            <span>GitHub @navnit919 ➔</span>
+          </a>
+          <a href="https://www.linkedin.com/in/navnit-kumar-72b470330" target="_blank" rel="noopener" class="connect-btn-email">
+            <span>LinkedIn Profile ➔</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Keyboard Navigation & Quick Jump Bar -->
+    <div class="bookshelf-hints-bar">
+      <span>Use <kbd>←</kbd> <kbd>→</kbd> arrow keys to navigate builds</span>
+      <span class="hint-sep">�</span>
+      <span>Press <kbd>Ctrl</kbd> + <kbd>K</kbd> for Command Palette</span>
+      <span class="hint-sep">�</span>
+      <a href="cv.html" class="hint-link">Open Full ATS-Verified CV ➔</a>
+    </div>
+
+  </main>
+
+  <!-- ==================== ALL PROJECTS MODAL ==================== -->
+  <div class="all-projects-overlay" id="all-projects-overlay" aria-hidden="true">
+    <div class="all-projects-sheet">
+      <div class="sheet-header">
+        <div>
+          <span class="sheet-tag">// index_of_works</span>
+          <h2 class="sheet-title">All Engineered Projects &amp; Fieldwork</h2>
+        </div>
+        <button class="sheet-close-btn" id="btn-close-projects-sheet" aria-label="Close projects view">&times;</button>
+      </div>
+
+      <div class="sheet-projects-grid">
+        <div class="sheet-card" data-select-book="0">
+          <span class="sheet-card-num">01</span>
+          <h4>MineSafe-X</h4>
+          <p>Peer-to-peer V2V/V2I collision avoidance &amp; offline fleet telemetry for mining haulers.</p>
+          <div class="sheet-tags"><span>ESP-NOW</span><span>mmWave Radar</span><span>GPS</span></div>
+        </div>
+
+        <div class="sheet-card" data-select-book="1">
+          <span class="sheet-card-num">02</span>
+          <h4>Traffic Violation AI</h4>
+          <p>Real-time edge vision pipeline detecting helmet violations, wrong-way lanes &amp; triple riding.</p>
+          <div class="sheet-tags"><span>YOLOv8</span><span>OpenCV</span><span>Python</span></div>
+        </div>
+
+        <div class="sheet-card" data-select-book="2">
+          <span class="sheet-card-num">03</span>
+          <h4>Ostero � AI Health</h4>
+          <p>Non-invasive osteoarthritis gait kinematics &amp; dynamic plantar pressure analysis with XGBoost.</p>
+          <div class="sheet-tags"><span>XGBoost</span><span>ESP32</span><span>DenseNet121</span><span>MediaPipe</span></div>
+        </div>
+
+        <div class="sheet-card" data-select-book="3">
+          <span class="sheet-card-num">04</span>
+          <h4>Embedded RC Vehicle</h4>
+          <p>Dual H-bridge high-current motor driver vehicular chassis with custom RF receiver circuitry.</p>
+          <div class="sheet-tags"><span>Motor Drivers</span><span>RF Control</span><span>PWM</span></div>
+        </div>
+
+        <div class="sheet-card" data-select-book="4">
+          <span class="sheet-card-num">05</span>
+          <h4>F450 Multirotor UAV</h4>
+          <p>Quadcopter platform with flight stabilization calibration, 30A ESCs, and LiPo power harness.</p>
+          <div class="sheet-tags"><span>Flight Controller</span><span>30A ESCs</span><span>FlySky</span></div>
+        </div>
+
+        <div class="sheet-card" data-select-book="5">
+          <span class="sheet-card-num">06</span>
+          <h4>Ultrasonic Radar Bench</h4>
+          <p>Pulse time-of-flight acoustic obstacle ranging system with UART serial telemetry scope.</p>
+          <div class="sheet-tags"><span>Arduino</span><span>Embedded C</span><span>HC-SR04</span></div>
+        </div>
+
+        <div class="sheet-card" data-select-book="6">
+          <span class="sheet-card-num">07</span>
+          <h4>Contact Manager</h4>
+          <p>Python CLI app with JSON persistence for robust contact lifecycle management � add, search, delete.</p>
+          <div class="sheet-tags"><span>Python</span><span>JSON</span><span>CLI Tool</span></div>
+        </div>
+
+        <div class="sheet-card" data-select-book="7">
+          <span class="sheet-card-num">08</span>
+          <h4>Python Adventure Game</h4>
+          <p>Interactive branching narrative engine with probabilistic randomness and state-machine game loops.</p>
+          <div class="sheet-tags"><span>Python</span><span>Game Dev</span><span>Random Module</span></div>
+        </div>
+      </div>
+
+      <div class="sheet-footer">
+        <a href="projects.html" class="sheet-full-gallery-btn">View Detailed Gallery &amp; Photos ➔</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== TECHNICAL SPECS INSPECTOR & SIMULATOR MODAL ==================== -->
+  <div class="specs-modal-overlay" id="specs-modal-overlay" aria-hidden="true">
+    <div class="specs-modal-card">
+      <div class="specs-modal-head">
+        <div>
+          <span class="specs-meta-pill" id="specs-domain">Hardware &amp; Embedded</span>
+          <h2 class="specs-title" id="specs-title">Technical Specifications</h2>
+        </div>
+        <button class="sheet-close-btn" id="btn-close-specs-modal" aria-label="Close specifications">&times;</button>
+      </div>
+
+      <!-- Tab Buttons -->
+      <div class="specs-modal-tabs" id="specs-modal-tabs">
+        <button type="button" class="specs-tab-btn active" data-tab="specs" id="tab-btn-specs">🏗️ Architecture &amp; Specs</button>
+        <button type="button" class="specs-tab-btn" data-tab="sim" id="tab-btn-sim">📡 Live Signal &amp; Telemetry Simulator</button>
+      </div>
+
+      <!-- Tab 1: Architecture & Specs Pane -->
+      <div class="specs-tab-pane" id="pane-specs">
+        <div class="specs-modal-content">
+          <div class="specs-photo-frame">
+            <img src="images/minesafe.jpg" id="specs-photo" alt="Project Hardware View" />
+            <div class="specs-gallery-thumbs" id="specs-gallery-thumbs"></div>
+          </div>
+
+          <div class="specs-data-grid">
+            <div class="specs-block">
+              <h4>// System Architecture</h4>
+              <p id="specs-arch">ESP-NOW mesh broadcast between vehicle nodes; local TTC calculation on ESP32 without Internet.</p>
+            </div>
+
+            <div class="specs-block">
+              <h4>// Core Components &amp; Hardware</h4>
+              <p id="specs-hardware">ESP32-WROOM-32, 24GHz mmWave radar, HC-SR04 ToF sensors, NEO-6M GPS, buzzer &amp; OLED display.</p>
+            </div>
+
+            <div class="specs-block">
+              <h4>// Software Stack &amp; Algorithms</h4>
+              <p id="specs-software">Embedded C / Arduino, ESP-NOW Peer-to-Peer, Time-to-Collision (TTC) predictive velocity vector engine.</p>
+            </div>
+
+            <div class="specs-block">
+              <h4>// Benchmarked Outcomes</h4>
+              <p id="specs-metrics">&lt;5ms packet transmission latency; 360-degree blind-spot hazard warning coverage.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab 2: Live Simulator Pane -->
+      <div class="specs-tab-pane" id="pane-sim" style="display: none;">
+        <div id="sim-mount-point">
+          <!-- Dynamically populated by main.js with interactive simulator -->
+        </div>
+      </div>
+
+      <div class="specs-modal-actions">
+        <a href="projects.html" class="card-btn card-btn-primary" id="specs-gallery-btn">
+          View in Projects Gallery ➔
+        </a>
+        <a href="cv.html" class="card-btn card-btn-secondary">
+          Read in Full CV
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

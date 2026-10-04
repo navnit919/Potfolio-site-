@@ -1,0 +1,696 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Engineering Projects � Navnit Kumar</title>
+  <meta name="keywords" content="Navnit Kumar, Navnit Portfolio, Navnit NIT Nagaland, Navnit Kumar NIT Nagaland, Electrical Engineering, Software Developer, EEE NIT Nagaland" />
+  <meta name="description" content="Engineered hardware, robotics, edge AI vision pipelines, and high-voltage power projects by Navnit Kumar (NIT Nagaland)." />
+  <meta property="og:title" content="Engineering Projects &amp; Hardware � Navnit Kumar" />
+  <meta property="og:description" content="Autonomous aerial systems, edge computer-vision pipelines &amp; embedded telemetry benches." />
+  <meta property="og:image" content="images/minesafe.jpg" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel:wght@500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Fredoka:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Orbitron:wght@600;700;800;900&family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bookshelf-layout" data-theme="light">
+
+  <!-- Mobile Navigation Top Bar -->
+  <header class="mobile-top-bar" aria-label="Mobile Navigation">
+    <button type="button" class="mobile-nav-toggle-btn" aria-label="Toggle Project Explorer">
+      <span>📂</span> <span>Explorer</span>
+    </button>
+    <div class="mobile-brand-pill">
+      <img src="images/profile_photo.jpeg" alt="Navnit" onerror="this.src='https://ui-avatars.com/api/?name=Navnit&background=e2d9cc&color=4a3e35'" />
+      <span>Navnit Kumar</span>
+    </div>
+    <div class="mobile-quick-actions">
+      <button type="button" class="mobile-quick-btn theme-toggle-btn" title="Toggle Light / Dark Theme" aria-label="Toggle Theme">
+        <span class="theme-icon">🌓</span>
+      </button>
+      <button type="button" class="mobile-quick-btn cmd-palette-trigger" title="Command Palette (Ctrl+K)" aria-label="Search">
+        <span>📂</span>
+      </button>
+      <a href="cv.html" class="mobile-quick-btn" title="View Full Interactive CV" aria-label="View CV">📄</a>
+    </div>
+  </header>
+
+  <!-- Background Liquid Aurora Mesh -->
+  <div class="aurora-container" aria-hidden="true">
+    <div class="aurora-orb orb-1"></div>
+    <div class="aurora-orb orb-2"></div>
+    <div class="aurora-orb orb-3"></div>
+    <div class="aurora-orb orb-4"></div>
+    <div class="aurora-orb orb-5"></div>
+  </div>
+
+  <!-- ==================== ANIMATED GEOMETRIC SHAPES LAYER ==================== -->
+  <div class="geo-shapes-layer" aria-hidden="true">
+    <div class="geo-ring geo-ring-1"></div>
+    <div class="geo-ring geo-ring-2"></div>
+    <div class="geo-ring geo-ring-3"></div>
+    <div class="geo-ring geo-ring-4"></div>
+    <div class="geo-dash geo-dash-1"></div>
+    <div class="geo-dash geo-dash-2"></div>
+    <div class="geo-dash geo-dash-3"></div>
+    <div class="geo-dot geo-dot-1"></div>
+    <div class="geo-dot geo-dot-2"></div>
+    <div class="geo-dot geo-dot-3"></div>
+    <div class="geo-dot geo-dot-4"></div>
+    <div class="geo-dot geo-dot-5"></div>
+  </div>
+
+  <nav class="glass-vertical-nav" aria-label="Main Navigation">
+    <div class="nav-brand">
+      <img src="images/profile_photo.jpeg" alt="Navnit" onerror="this.src='https://ui-avatars.com/api/?name=Navnit&background=e2d9cc&color=4a3e35'" />
+    </div>
+    
+    <div class="nav-links">
+      <a href="index.html" class="nav-item" title="Home">
+        <span class="nav-icon">⚡</span>
+      </a>
+      <a href="about.html" class="nav-item" title="About">
+        <span class="nav-icon">📝</span>
+      </a>
+      <a href="skills.html" class="nav-item" title="Skills">
+        <span class="nav-icon">💡</span>
+      </a>
+      <a href="projects.html" class="nav-item active" title="Projects">
+        <span class="nav-icon">📁</span>
+      </a>
+      <a href="experience.html" class="nav-item" title="Experience">
+        <span class="nav-icon">🏗️</span>
+      </a>
+      <a href="cv.html" class="nav-item" title="CV">
+        <span class="nav-icon">📄</span>
+      </a>
+      <a href="contact.html" class="nav-item" title="Contact">
+        <span class="nav-icon">📫</span>
+      </a>
+    </div>
+
+    <div class="nav-bottom-actions">
+      <button type="button" class="nav-item theme-toggle-btn" title="Toggle Theme">
+        <span class="nav-icon theme-icon">☀️</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ==================== MAIN STAGE ==================== -->
+  <main class="page-stage">
+    <header class="stage-header-bar">
+      <span class="breadcrumb-file">explorer &gt; projects &gt; <strong>gallery.jsx</strong></span>
+      <div class="header-action-group">
+        <button type="button" class="quick-utility-btn cmd-btn cmd-palette-trigger" title="Command Palette (Ctrl+K)">
+          <span>🔍 ⌘K Search</span>
+        </button>
+        <button type="button" class="quick-utility-btn theme-btn theme-toggle-btn" title="Toggle Light / Dark Theme">
+          <span class="theme-icon">🌓</span>
+          <span class="theme-text">Dark</span>
+        </button>
+        <a href="cv.html" class="resume-pill-btn highlight">View Full CV ??</a>
+        <a href="index.html" class="resume-pill-btn">▪  Back to Home</a>
+      </div>
+    </header>
+
+    <div class="projects-hero-row">
+      <div>
+        <h1 class="editorial-title">Engineered Projects &amp; Hardware</h1>
+        <p class="editorial-subtitle">Autonomous aerial systems, edge computer-vision pipelines &amp; embedded telemetry benches</p>
+      </div>
+    </div>
+
+    <!-- Category Filter Bar -->
+    <div class="filter-pills-bar" id="project-filters">
+      <button type="button" class="filter-pill active" data-filter="all">All Engineered Builds (8)</button>
+      <button type="button" class="filter-pill" data-filter="ai-vision">Edge AI &amp; Vision (2)</button>
+      <button type="button" class="filter-pill" data-filter="robotics">Robotics &amp; UAVs (2)</button>
+      <button type="button" class="filter-pill" data-filter="embedded">Embedded IoT &amp; Sensors (2)</button>
+      <button type="button" class="filter-pill" data-filter="software">Python &amp; Software (2)</button>
+    </div>
+
+    <div class="project-section-header" style="margin: 2rem 0 1.5rem; border-bottom: 2px solid var(--accent-amber); padding-bottom: 0.5rem; display: flex; align-items: center; gap: 1rem;">
+      <h2 style="font-family: var(--font-cinzel); font-weight: 700; font-size: 2rem; color: var(--accent-amber); margin: 0; text-shadow: 0 0 10px color-mix(in srgb, var(--accent-amber) 40%, transparent);">Major Projects</h2>
+      <span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-muted); padding-top: 0.5rem;">// HIGH IMPACT</span>
+    </div>
+    <div class="projects-gallery-grid" id="projects-grid-major">
+
+      <!-- ================= 1. MineSafe-X ================= -->
+      <article class="glass-panel project-card" data-category="embedded">
+        <div class="project-media-wrap gallery-wrap" id="gallery-minesafe">
+          <div class="gallery-main">
+            <img src="images/minesafe.jpg" alt="MineSafe-X Heavy Vehicle Safety System" id="main-img-minesafe" class="lightbox-trigger"
+              data-caption="MineSafe-X: 24GHz mmWave Radar, GPS &amp; ESP-NOW V2V Mining Transport Safety System" />
+            <span class="project-badge-float">Team Colliders � Smart Mining Safety</span>
+          </div>
+          <div class="gallery-thumbnails">
+            <img src="images/minesafe.jpg" class="thumb active-thumb" onclick="switchImage('main-img-minesafe', this)" />
+            <img src="images/minesafex.jpg" class="thumb" onclick="switchImage('main-img-minesafe', this)" />
+            <img src="images/minesafex (2).jpg" class="thumb" onclick="switchImage('main-img-minesafe', this)" />
+            <img src="images/minesafe (2).jpg" class="thumb" onclick="switchImage('main-img-minesafe', this)" />
+            <img src="images/minesafe dashboard.jpg" class="thumb" onclick="switchImage('main-img-minesafe', this)" />
+            <img src="images/minesafe mobile dashboard.jpg" class="thumb" onclick="switchImage('main-img-minesafe', this)" />
+          </div>
+        </div>
+
+        <script>
+          function switchImage(mainId, thumbEl) {
+            document.getElementById(mainId).src = thumbEl.src;
+            var thumbs = thumbEl.parentElement.querySelectorAll('.thumb');
+            thumbs.forEach(t => t.classList.remove('active-thumb'));
+            thumbEl.classList.add('active-thumb');
+          }
+        </script>
+        <div class="project-video-wrap" style="margin-top: 1rem; border-radius: 12px; overflow: hidden; border: 1px solid var(--stage-card-border); box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+          <video src="images/minesafe x truck setup.mp4" controls style="width: 100%; display: block; max-height: 500px; background: var(--bg-gradient-start);"></video>
+        </div>
+        <div class="project-content">
+          <div class="project-header-row">
+            <h3>MineSafe-X � Making Mining Transport Safer</h3>
+            <span class="project-num-tag">// 01</span>
+          </div>
+          <p class="project-desc-text">
+            Developed by <strong>Team Colliders</strong>, MineSafe-X is a smart safety and fleet monitoring system engineered to reduce collision risks between heavy haul vehicles operating in busy open-cast mines. Mining areas feature limited visibility, blind spots, uneven terrain, and heavy trucks continuously in motion. MineSafe-X gives drivers better awareness, faster warnings, and a safer working environment.
+          </p>
+
+          <div class="specs-accordion">
+            <details open>
+              <summary><strong>System Architecture &amp; Key Capabilities</strong></summary>
+              <ul class="project-bullets">
+                <li><strong>Multisensory Fusion:</strong> Combines GPS, mmWave radar, and ultrasonic time-of-flight sensors to continuously track vehicle location, speed, direction, acceleration, altitude, and distance from nearby heavy vehicles.</li>
+                <li><strong>V2V &amp; V2I Direct Communication:</strong> Direct Vehicle-to-Vehicle (V2V) communication enables trucks to exchange telemetry with each other, while Vehicle-to-Infrastructure (V2I) communication interfaces with the central monitoring system.</li>
+                <li><strong>Predictive Time to Collision (TTC):</strong> Intelligently calculates dynamic Time to Collision (TTC) vectors and immediately sounds cab alerts via an interactive <strong>mobile dashboard</strong> when vehicles get dangerously close.</li>
+                <li><strong>Local Communication via ESP-NOW:</strong> Operates entirely without cellular or internet connectivity using low-latency peer-to-peer <strong>ESP-NOW</strong> radio, guaranteeing uncompromised reliability in remote pits.</li>
+                <li><strong>Central Fleet Monitoring Tower:</strong> Works as a centralized fleet monitoring system where a central tower keeps track of multiple trucks and displays an overall live overview of all vehicle movements across the mine.</li>
+              </ul>
+            </details>
+          </div>
+
+          <div class="project-footer-row">
+            <div class="tag-cloud">
+              <span class="highlight">Team Colliders</span>
+              <span class="highlight">ESP-NOW (&lt;5ms)</span>
+              <span class="highlight">mmWave Radar</span>
+              <span>GPS Telemetry</span>
+              <span>V2V &amp; V2I</span>
+              <span>TTC Engine</span>
+              <span>Mobile Dashboard</span>
+              <span>Fleet Tower</span>
+            </div>
+            <div class="project-actions-btns">
+              <a href="https://drive.google.com/drive/folders/16sRMtZAeOKWz0Sx-ARwUDb_S_0rBsoel" target="_blank" rel="noopener" class="project-drive-link">
+                Drive Prototype ?
+              </a>
+              <a href="https://github.com/navnit919" target="_blank" rel="noopener" class="project-repo-link">GitHub ➔</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ================= 2. Traffic AI ================= -->
+      <article class="glass-panel project-card" data-category="ai-vision">
+        <div class="project-media-wrap">
+          <img src="images/Screenshot 2026-08-08 144630.png" alt="Traffic Violation Detection System" class="lightbox-trigger"
+            data-caption="Traffic Violation Detection System: Live YOLOv8 detection of Helmet Violations, Triple Riding, Red-Light Violations, and Wrong-Side Driving" />
+          <span class="project-badge-float">YOLOv8, EasyOCR &amp; AI Traffic Assistant</span>
+        </div>
+
+        <!-- Additional Proof Thumbnails -->
+        <div class="project-thumbnails-row">
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-08-08 144730.png"
+            data-caption="Classroom live camera inference: Real-time detection of No Helmet, Virtual Line Violation, and Motorcycle tracking">
+            <img src="images/Screenshot 2026-08-08 144730.png" alt="Live Camera Test" />
+            <span class="thumb-label">Live Camera Test</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-05-08 234123.png"
+            data-caption="Terminal inference speed benchmarks (55.1ms) and wrong-side boundary detection in VS Code">
+            <img src="images/Screenshot 2026-05-08 234123.png" alt="Inference Speed Log" />
+            <span class="thumb-label">55ms Telemetry</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/traffic.jpg"
+            data-caption="Simulated multi-vehicle roadway dataset and boundary trajectory modeling">
+            <img src="images/traffic.jpg" alt="Traffic Dataset Simulation" />
+            <span class="thumb-label">Road Simulation</span>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-header-row">
+            <h3>Traffic Violation Detection System</h3>
+            <span class="project-num-tag">// 02</span>
+          </div>
+          <p class="project-desc-text">
+            An AI-powered smart traffic monitoring system engineered to automatically detect, identify, and record traffic violations from live camera footage (Raspberry Pi camera, Arducam, or laptop camera). Eliminates dependence on manual traffic monitoring with faster, consistent, data-driven law enforcement.
+          </p>
+
+          <div class="workflow-strip" style="display:flex; flex-wrap:wrap; gap:6px; font-size:11px; padding:8px 12px; margin:10px 0; background:var(--accent-glow); border-radius:8px; border:1px solid var(--border-color); font-family:var(--font-mono); color:var(--text-primary);">
+            <span>Camera</span> ➔ <span>Video Processing</span> ➔ <span>Vehicle Detection</span> ➔ <span>Violation Detection</span> ➔ <span>Number Plate Detection</span> ➔ <span>EasyOCR</span> ➔ <span>Violation Record</span> ➔ <span>Dashboard</span> ➔ <strong>AI Traffic Assistant</strong>
+          </div>
+
+          <div class="specs-accordion">
+            <details open>
+              <summary><strong>Core Detection Pipeline &amp; Features</strong></summary>
+              <ul class="project-bullets">
+                <li><strong>YOLOv8 Violation Detection:</strong> Real-time computer vision models trained to identify vehicles and flag infractions: <em>Helmet / No-Helmet Riders</em>, <em>Triple Riding</em>, <em>Red-Light Violations</em>, and <em>Wrong-Side Driving</em>.</li>
+                <li><strong>Vehicle Tracking &amp; Unique ID:</strong> Integrated tracking logic assigns a persistent Unique ID to vehicles as they traverse camera frames, preventing duplicate violation counts.</li>
+                <li><strong>Number Plate Detection &amp; EasyOCR:</strong> A dedicated number-plate model pinpoints the registration plate, crops the bounding box, and passes it to <strong>EasyOCR</strong> for high-accuracy character recognition (<code>Detected Plate ➔ Crop ➔ EasyOCR ➔ Vehicle Reg Number</code>).</li>
+                <li><strong>Violation Database &amp; Web Dashboard:</strong> Stores violation records containing Unique Vehicle ID, vehicle plate number, violation category, date/time, snapshot frame, camera source, and confidence score. Displayed on a modern web dashboard built with HTML, CSS, JavaScript, and a Python backend.</li>
+                <li><strong>AI Traffic Assistant (LLM Chatbot):</strong> Integrated AI assistant analyses violation logs to answer follow-up queries (e.g. <em>"What were the most common violations this week?"</em>), generate weekly/monthly reports, identify violation patterns, and recommend traffic safety improvements.</li>
+              </ul>
+            </details>
+          </div>
+
+          <div class="project-footer-row">
+            <div class="tag-cloud">
+              <span class="highlight">YOLOv8</span>
+              <span class="highlight">EasyOCR</span>
+              <span class="highlight">AI Traffic Assistant</span>
+              <span>OpenCV</span>
+              <span>Vehicle Tracking ID</span>
+              <span>Python Backend</span>
+              <span>Web Dashboard</span>
+              <span>Raspberry Pi</span>
+            </div>
+            <a href="https://github.com/navnit919" target="_blank" rel="noopener" class="project-repo-link">GitHub ➔</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ================= 3. Osteoarthritis AI ================= -->
+      <article class="glass-panel project-card" data-category="ai-vision">
+        <div class="project-media-wrap">
+          <img src="images/Screenshot 2026-09-17 110427.png" alt="AI-Based Osteoarthritis Risk Marker Screening System" class="lightbox-trigger"
+            data-caption="AI-Based Osteoarthritis Risk Marker Screening System: 4-Tier Multimodal Pipeline for the North Eastern Region" />
+          <span class="project-badge-float">Smart India Hackathon 2026 Candidate � North Eastern Region</span>
+        </div>
+
+        <!-- Comprehensive Proof Thumbnails Row -->
+        <div class="project-thumbnails-row">
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120212.png"
+            data-caption="Clinical Multimodal Workstation: Live system nodes (DenseNet-121, MediaPipe Tasks 40-Frame Bilateral, XGBoost V5, ESP32 IMU)">
+            <img src="images/Screenshot 2026-09-16 120212.png" alt="Clinical Workstation" />
+            <span class="thumb-label">Clinical Portal</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120345.png"
+            data-caption="DenseNet-121 Deep Learning Radiograph Analysis: KL Grade 4 (Severe Marked JSN & Sclerosis, 93.6% Confidence)">
+            <img src="images/Screenshot 2026-09-16 120345.png" alt="DenseNet-121 Radiograph" />
+            <span class="thumb-label">X-Ray AI (93.6%)</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-19 102412.png"
+            data-caption="MediaPipe Pose computer vision real-time gait skeletal landmark tracking on Navnit Kumar during walking assessment">
+            <img src="images/Screenshot 2026-09-19 102412.png" alt="MediaPipe Gait Tracking" />
+            <span class="thumb-label">Pose Tracking</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120436.png"
+            data-caption="ESP32 + MPU6050 6-DOF wearable inertial motion sensor waveform stream (Thigh Accel 1.12g, Shank Gyro 45.2�/s)">
+            <img src="images/Screenshot 2026-09-16 120436.png" alt="Motion Sensor Waveform" />
+            <span class="thumb-label">IMU Waveform</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120458.png"
+            data-caption="Multimodal Diagnostic Report with 4-Axis radar chart (X-Ray 40%, Gait 30%, WOMAC 20%, IMU 10%) & Composite Score 74.9/100">
+            <img src="images/Screenshot 2026-09-16 120458.png" alt="Multimodal Radar Report" />
+            <span class="thumb-label">Radar Score (74.9)</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120513.png"
+            data-caption="Official Clinical Screening Report PDF generated for Navnit Kumar (OA-2026-NITN) with triage recommendations">
+            <img src="images/Screenshot 2026-09-16 120513.png" alt="Clinical PDF Report" />
+            <span class="thumb-label">Clinical PDF</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 162150.png"
+            data-caption="Smart India Hackathon 2026 Technical Approach slide: PyTorch, XGBoost, OpenCV, MediaPipe, IMU, and FSR sensor stack">
+            <img src="images/Screenshot 2026-09-16 162150.png" alt="SIH Technical Approach" />
+            <span class="thumb-label">SIH Tech Stack</span>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-header-row">
+            <h3>AI-Based Osteoarthritis Risk Marker Screening System</h3>
+            <span class="project-num-tag">// 03</span>
+          </div>
+          <p class="project-desc-text">
+            An <strong>AI-based system</strong> engineered for early screening of Osteoarthritis (OA) risk markers in the <strong>North Eastern Region (NER)</strong>. Designed for accessible, patient-friendly screening across remote clinics, healthcare centres, and rural camps where diagnostic infrastructure is limited.
+          </p>
+
+          <div class="workflow-strip" style="display:flex; flex-wrap:wrap; gap:8px; font-size:11px; padding:8px 12px; margin:10px 0; background:var(--accent-glow); border-radius:8px; border:1px solid var(--border-color); font-family:var(--font-mono); color:var(--text-primary);">
+            <span><strong>Input:</strong> Symptoms + Gait + Sensors + X-Ray</span> ➔ <span><strong>▪  AI Analysis ➔</strong></span> ➔ <span><strong>Output:</strong> Screening Assessment + Risk Markers + Key Findings</span>
+          </div>
+
+          <div class="specs-accordion">
+            <details open>
+              <summary><strong>4-Tier Multimodal Solution &amp; Key Features</strong></summary>
+              <ul class="project-bullets">
+                <li><strong>1. Clinical Questionnaire:</strong> Captures joint pain, stiffness, and mobility symptoms through a structured digital intake.</li>
+                <li><strong>2. Gait &amp; Sensors:</strong> Camera with <strong>MediaPipe Pose</strong>, wearable <strong>ESP32 + 3� MPU6050 IMU</strong>, and <strong>FSR pressure insoles</strong> analyze bilateral joint movement, posture, and dynamic weight distribution.</li>
+                <li><strong>3. Knee X-Ray AI:</strong> Deep learning model (<strong>DenseNet-121</strong>) analyzes knee radiographs for OA-related features including Joint Space Narrowing (JSN) and Kellgren-Lawrence (KL Grades 0�4) with 93.6% confidence.</li>
+                <li><strong>4. AI + Unified Dashboard:</strong> An <strong>XGBoost</strong> classifier fuses all modalities to generate a composite screening assessment, risk marker breakdown, and multi-axis radar score.</li>
+                <li><strong>Multilingual Localization:</strong> Fully translated into <strong>Assamese, Bengali, Hindi &amp; English</strong> to empower diverse regional healthcare workers and patients.</li>
+                <li><strong>100% Offline Capable:</strong> Fully operational without internet connectivity, making it ideal for rural outreach camps and remote primary health centers.</li>
+                <li><strong>Clinical Scope &amp; Target Users:</strong> Serves patients, doctors, physiotherapists, and healthcare workers. <em>Note: The system supports early screening and does not replace professional medical diagnosis.</em></li>
+              </ul>
+            </details>
+          </div>
+
+          <div class="project-footer-row">
+            <div class="tag-cloud">
+              <span class="highlight">Multimodal AI</span>
+              <span class="highlight">NER Healthcare</span>
+              <span class="highlight">DenseNet-121</span>
+              <span>MediaPipe Pose</span>
+              <span>XGBoost</span>
+              <span>ESP32 IMU / FSR</span>
+              <span>Assamese / Bengali / Hindi</span>
+              <span>100% Offline Capable</span>
+            </div>
+            <div class="project-actions-btns">
+              <a href="https://drive.google.com/drive/folders/13-yXUd3_mVVW_8rUecfljQ8K5v007EYM" target="_blank" rel="noopener" class="project-drive-link">
+                Drive Prototype &amp; Datasets ?
+              </a>
+              <a href="https://github.com/navnit919" target="_blank" rel="noopener" class="project-repo-link">GitHub ➔</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ================= 4. F450 Multirotor UAV ================= -->
+      <article class="glass-panel project-card" data-category="robotics">
+        <div class="project-media-wrap">
+          <img src="images/drone.jpeg" alt="Multirotor UAV Platform" class="lightbox-trigger"
+            data-caption="F450 Multirotor Quadcopter with FlySky Computer Transmitter and KK2.1.5 Flight Controller" />
+          <span class="project-badge-float">Aerial Robotics � NIELIT Build</span>
+        </div>
+
+        <!-- Additional Proof Thumbnails -->
+        <div class="project-thumbnails-row">
+          <div class="thumb-frame lightbox-trigger" data-src="images/drone-team.jpeg"
+            data-caption="Navnit Kumar and team assembling the multirotor UAV airframe during NIELIT Drone Bootcamp 2.1">
+            <img src="images/drone-team.jpeg" alt="Team Assembly at NIELIT" />
+            <span class="thumb-label">Team Assembly</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/drone-field.jpeg"
+            data-caption="Flight-ready quadcopters, FlySky computer transmitter, and racing drone chassis in ground test field">
+            <img src="images/drone-field.jpeg" alt="Ground Field Testing" />
+            <span class="thumb-label">Field Testing</span>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-header-row">
+            <h3>F450 Multirotor UAV Platform</h3>
+            <span class="project-num-tag">// 04</span>
+          </div>
+          <p class="project-desc-text">
+            Custom-engineered 450mm wheelbase aerial quadcopter architecture built from discrete structural, electronic, and power components during an intensive 5-day hands-on NIELIT technical bootcamp.
+          </p>
+
+          <div class="specs-accordion">
+            <details open>
+              <summary><strong>Technical Specifications &amp; Architecture</strong></summary>
+              <ul class="project-bullets">
+                <li><strong>Flight Stabilization:</strong> Calibrated KK2.1.5 / APM multirotor flight controller with 3-axis gyro and 3-axis accelerometer proportional-integral-derivative (PID) loop tuning for rock-solid hovering.</li>
+                <li><strong>Propulsion Array:</strong> 4x 1000KV brushless DC outrunner motors paired with 30A SimonK Electronic Speed Controllers (ESCs) and 1045 composite balance propellers.</li>
+                <li><strong>Power Architecture:</strong> High-discharge 3S (11.1V) 2200mAh 25C LiPo battery harnessed through a central power distribution board with dedicated voltage regulators.</li>
+                <li><strong>RF Avionics:</strong> 6-channel 2.4GHz FlySky computer transmitter/receiver telemetry with calibrated throttle curves and emergency failsafe cutoff.</li>
+              </ul>
+            </details>
+          </div>
+
+          <div class="project-footer-row">
+            <div class="tag-cloud">
+              <span class="highlight">Flight Controller</span>
+              <span class="highlight">30A ESCs</span>
+              <span>BLDC Motors</span>
+              <span>FlySky 2.4GHz</span>
+              <span>PID Tuning</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div> <!-- End Major Projects Grid -->
+
+    <div class="project-section-header" style="margin: 4rem 0 1.5rem; border-bottom: 2px solid var(--accent-cyan); padding-bottom: 0.5rem; display: flex; align-items: center; gap: 1rem;">
+      <h2 style="font-family: var(--font-cinzel); font-weight: 700; font-size: 2rem; color: var(--accent-cyan); margin: 0; text-shadow: 0 0 10px color-mix(in srgb, var(--accent-cyan) 40%, transparent);">Minor Projects</h2>
+      <span style="font-family: var(--font-mono); font-size: 0.85rem; color: var(--text-muted); padding-top: 0.5rem;">// EXPERIMENTAL & SKILL BUILDING</span>
+    </div>
+    <div class="projects-gallery-grid" id="projects-grid-minor">
+
+      <!-- ================= 5. Ultrasonic Radar Bench ================= -->
+      <article class="glass-panel project-card" data-category="embedded">
+        <div class="project-media-wrap">
+          <img src="images/ultrasonic.png" alt="Ultrasonic Radar Bench" class="lightbox-trigger"
+            data-caption="Ultrasonic Radar Bench: Arduino Uno driving HC-SR04 Transducer with SG90 Servo Sweep" />
+          <span class="project-badge-float">Microcontroller Firmware</span>
+        </div>
+
+        <!-- Additional Proof Thumbnails -->
+        <div class="project-thumbnails-row">
+          <div class="thumb-frame lightbox-trigger" data-src="images/ultrasonic-code.png"
+            data-caption="Arduino IDE Embedded C firmware calculating pulse duration and time-of-flight acoustic distance">
+            <img src="images/ultrasonic-code.png" alt="Embedded C Firmware" />
+            <span class="thumb-label">Arduino C Code</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/ultrasonic-output.png"
+            data-caption="Live COM4 serial monitor telemetry logging real-time pulse wave distance feedback">
+            <img src="images/ultrasonic-output.png" alt="COM4 Serial Telemetry" />
+            <span class="thumb-label">Serial Telemetry</span>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-header-row">
+            <h3>Ultrasonic Spatial Radar Bench</h3>
+            <span class="project-num-tag">// 05</span>
+          </div>
+          <p class="project-desc-text">
+            Spatial obstacle detection instrument measuring acoustic time-of-flight wave reflections on an Arduino microcontroller to construct real-time angular radar sweeps with collision boundary warnings.
+          </p>
+
+          <div class="specs-accordion">
+            <details open>
+              <summary><strong>Technical Specifications &amp; Architecture</strong></summary>
+              <ul class="project-bullets">
+                <li><strong>Acoustic Ranging Physics:</strong> Generated microsecond-precise 10�s HIGH trigger pulses on HC-SR04 transducer; measured echo pulse durations to calculate distance via $D = \frac{T \times 0.0343}{2}$ cm.</li>
+                <li><strong>Angular Sweep:</strong> Synchronized SG90 servo motor stepping smoothly from 15� to 165� with 30ms dwell times per degree increment.</li>
+                <li><strong>UART Serial Protocol:</strong> Transmitted synchronized angle and distance tuples over high-speed COM4 serial at 9600 baud for PC visual scope plotting.</li>
+                <li><strong>Hazard Logic:</strong> Configured automatic acoustic alarms when detected obstacles crossed critical safety thresholds (&lt;15cm).</li>
+              </ul>
+            </details>
+          </div>
+
+          <div class="project-footer-row">
+            <div class="tag-cloud">
+              <span class="highlight">Arduino Uno</span>
+              <span class="highlight">Embedded C</span>
+              <span>HC-SR04</span>
+              <span>UART Telemetry</span>
+              <span>Servo Sweeps</span>
+            </div>
+            <a href="https://www.linkedin.com/posts/navnit-kumar-72b470330_ultrasonics-iot-sensors-activity-7324643160599506944-P1ND"
+              target="_blank" rel="noopener" class="project-repo-link">LinkedIn Video Demo ➔</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ================= 6. Embedded RC Vehicle ================= -->
+      <article class="glass-panel project-card" data-category="robotics">
+        <div class="project-media-wrap gallery-wrap" id="gallery-rccar">
+          <div class="gallery-main">
+            <img src="images/rc-car.jpg" alt="Embedded RC Vehicle Chassis" id="main-img-rccar" class="lightbox-trigger"
+              data-caption="High-Current Dual H-Bridge Robotics Chassis with Arduino, 2.4GHz RF Receiver, and Turnigy LiPo" />
+            <span class="project-badge-float">Hardware Chassis &amp; Power</span>
+          </div>
+          <div class="gallery-thumbnails">
+            <img src="images/rc-car.jpg" class="thumb active-thumb" onclick="switchImage('main-img-rccar', this)" />
+            <img src="images/rc car race (1).jpeg" class="thumb" onclick="switchImage('main-img-rccar', this)" />
+            <img src="images/rc car.jpeg" class="thumb" onclick="switchImage('main-img-rccar', this)" />
+          </div>
+        </div>
+        <div class="project-content">
+          <div class="project-header-row">
+            <h3>High-Current Dual H-Bridge RC Vehicle</h3>
+            <span class="project-num-tag">// 06</span>
+          </div>
+          <p class="project-desc-text">
+            Custom engineered 4WD robotic vehicular platform built with dual high-current H-bridge motor drivers, active heat-sink dissipation, and clean power bus filtering for reliable remote operation.
+          </p>
+
+          <div class="specs-accordion">
+            <details open>
+              <summary><strong>Technical Specifications &amp; Architecture</strong></summary>
+              <ul class="project-bullets">
+                <li><strong>Power Electronics:</strong> Dual high-current H-bridge drivers with dual aluminum fin heatsinks driving high-torque DC gearmotors with bidirectional PWM speed modulation.</li>
+                <li><strong>RF Wireless Link:</strong> 2.4GHz multi-channel radio receiver interface decoding throttle, steering, and emergency brake signals with jitter-free filtering.</li>
+                <li><strong>Inductive Noise Isolation:</strong> Engineered dedicated LC low-pass filter decoupling motor inductive back-EMF voltage spikes from sensitive microcontroller logic rails.</li>
+                <li><strong>Chassis Dynamics:</strong> Heavy-duty all-terrain tire treads with independent axle articulation and high-discharge LiPo battery enclosure.</li>
+              </ul>
+            </details>
+          </div>
+
+          <div class="project-footer-row">
+            <div class="tag-cloud">
+              <span class="highlight">Motor Drivers</span>
+              <span class="highlight">H-Bridge</span>
+              <span>PWM Control</span>
+              <span>Power Electronics</span>
+              <span>2.4GHz RF</span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ================= 7. Contact Management System (Python & JSON) ================= -->
+      <article class="glass-panel project-card" data-category="software">
+        <div class="project-media-wrap">
+          <img src="images/python_cms.jpg" alt="Contact Management System in Python" class="lightbox-trigger"
+            data-caption="Contact Management System in Python: Structured JSON file storage, input validation, and user-friendly CLI" />
+          <span class="project-badge-float">Python &amp; JSON � CLI Tool</span>
+        </div>
+        <div class="project-content">
+          <div class="project-header-row">
+            <h3>Contact Management System in Python</h3>
+            <span class="project-num-tag">// 07</span>
+          </div>
+          <p class="project-desc-text">
+            A practical, reliable contact management system built using <strong>Python and JSON</strong>. Designed to strengthen core Python fundamentals, data structures, and file I/O operations through an interactive and user-friendly command-line interface.
+          </p>
+
+          <div class="specs-accordion">
+            <details open>
+              <summary><strong>Key Features &amp; Technical Capabilities</strong></summary>
+              <ul class="project-bullets">
+                <li><strong>Complete CRUD Operations:</strong> Seamlessly add, search, view, update, and delete contacts through an intuitive CLI menu.</li>
+                <li><strong>Structured JSON Storage:</strong> Stores and updates contact records in a clean, human-readable JSON schema, ensuring persistent state across sessions.</li>
+                <li><strong>Data Modeling:</strong> Efficiently structures data utilizing Python dictionaries and lists for instant search lookups and record manipulation.</li>
+                <li><strong>Input Validation &amp; Error Handling:</strong> Validates user phone numbers and email entries while gracefully catching I/O exceptions and invalid terminal inputs.</li>
+              </ul>
+            </details>
+          </div>
+
+          <div class="project-footer-row">
+            <div class="tag-cloud">
+              <span class="highlight">Python</span>
+              <span class="highlight">JSON Storage</span>
+              <span class="highlight">CLI Tools</span>
+              <span>Data Structures</span>
+              <span>Input Validation</span>
+              <span>File I/O</span>
+            </div>
+            <div class="project-actions-btns">
+              <a href="https://github.com/navnit919" target="_blank" rel="noopener" class="project-repo-link">GitHub Repo ➔</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ================= 8. Python Interactive Adventure Game ================= -->
+      <article class="glass-panel project-card" data-category="software">
+        <div class="project-media-wrap">
+          <img src="images/python_rpg.jpg" alt="Python Interactive Adventure Game" class="lightbox-trigger"
+            data-caption="Python Interactive Adventure Game: Branching decision engine with random encounter mechanics" />
+          <span class="project-badge-float">Python Milestone � Game Dev</span>
+        </div>
+        <div class="project-content">
+          <div class="project-header-row">
+            <h3>Python Interactive Adventure Game</h3>
+            <span class="project-num-tag">// 08</span>
+          </div>
+          <p class="project-desc-text">
+            My first milestone game built in <strong>Python</strong>! An interactive choice-driven adventure game where player decisions and probabilistic randomness decide fate�navigating treacherous cliffs, dangerous crocodile rivers, and hidden treasure.
+          </p>
+
+          <div class="specs-accordion">
+            <details open>
+              <summary><strong>Game Architecture &amp; Mechanics</strong></summary>
+              <ul class="project-bullets">
+                <li><strong>Dynamic Story Flow:</strong> Handles branching user choices with robust conditional logic and clean state-machine progression.</li>
+                <li><strong>Randomness &amp; Unpredictability:</strong> Uses Python's <code>random</code> module for probabilistic encounters, hazard checks, and varied quest outcomes.</li>
+                <li><strong>Clear Code Structure:</strong> Structured with modular game loops and reusable helper routines for high clarity and replayability.</li>
+                <li><strong>Engineering Milestone:</strong> Hands-on step mastering Python fundamentals, bridging logic design toward scalable public safety and IoT systems.</li>
+              </ul>
+            </details>
+          </div>
+
+          <div class="project-footer-row">
+            <div class="tag-cloud">
+              <span class="highlight">Python</span>
+              <span class="highlight">Game Dev</span>
+              <span class="highlight">Random Module</span>
+              <span>Control Flow</span>
+              <span>Decision Trees</span>
+              <span>CLI Engine</span>
+            </div>
+            <div class="project-actions-btns">
+              <a href="https://github.com/navnit919" target="_blank" rel="noopener" class="project-repo-link">GitHub ➔</a>
+              <a href="https://lnkd.in/ec5kKbvV" target="_blank" rel="noopener" class="project-drive-link">LinkedIn Milestone ➔</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Dedicated Industrial Internship Callout (DLW / BLW) -->
+    <div class="glass-panel" style="margin-top: 2rem; border-left: 4px solid var(--accent-emerald, var(--accent-emerald)); padding: 1.4rem 1.6rem; border-radius: 16px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:1.2rem;">
+        <div>
+          <span class="badge-pill-emerald">▪  Industrial Vocational Internship</span>
+          <h3 style="margin: 0.5rem 0 0.3rem 0; font-family: var(--font-serif); font-size: 1.35rem;">Looking for Industrial Fieldwork &amp; Substation Engineering?</h3>
+          <p style="margin: 0; font-size: 0.9rem; color: var(--text-secondary); max-width: 680px; line-height: 1.6;">
+            My 4-week vocational internship was conducted at <strong class="hl-emerald">Banaras Locomotive Works (BLW / DLW), Indian Railways, Varanasi</strong>, investigating the <strong class="hl-cyan">33kV Main Receiving Substation (MRS)</strong>, SF6 switchgear protection relays, and 3-phase asynchronous locomotive traction motors.
+          </p>
+        </div>
+        <div>
+          <a href="experience.html" class="resume-pill-btn highlight">Inspect Fieldwork Dossier ➔</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CV Prompt Banner -->
+    <section class="cv-prompt-banner" style="margin-top: 2rem;">
+      <div class="cv-prompt-content">
+        <h3>Want to review the complete engineering r�sum�?</h3>
+        <p>Review comprehensive coursework, verified academic distinction, industrial training at BLW Varanasi, and leadership roles.</p>
+      </div>
+      <div class="cv-prompt-actions">
+        <a href="cv.html" class="card-btn card-btn-primary">View Full Curriculum Vitae ??</a>
+        <a href="resume/Navnit_Kumar_Resume.pdf" target="_blank" rel="noopener" class="card-btn card-btn-secondary">Download PDF ➔</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== IMAGE LIGHTBOX MODAL ==================== -->
+  <div class="lightbox-modal" id="lightbox-modal" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-container">
+      <button type="button" class="lightbox-close-btn" id="lightbox-close" aria-label="Close image">&times;</button>
+      <img src="" id="lightbox-img" alt="Enlarged Project Preview" />
+      <p class="lightbox-caption" id="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
