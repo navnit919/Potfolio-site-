@@ -58,7 +58,7 @@
     var soundToggleBtns = document.querySelectorAll("#sound-toggle-btn, .sound-toggle-btn");
 
     soundIcons.forEach(function (icon) {
-      icon.textContent = audioMuted ? "ðŸ”‡" : "ðŸ”Š";
+      icon.textContent = audioMuted ? "🔍‡" : "🔊";
     });
     soundTexts.forEach(function (text) {
       text.textContent = audioMuted ? "Muted" : "Sound";
@@ -1125,7 +1125,7 @@
           if (alarmVal) alarmVal.textContent = "Strobe Flashing";
         } else {
           banner.classList.add("danger");
-          ttcText.textContent = "ðŸ”´ CRITICAL HAZARD — 105dB CAB AUDIBLE BRAKE WARNING!";
+          ttcText.textContent = "🔍´ CRITICAL HAZARD — 105dB CAB AUDIBLE BRAKE WARNING!";
           if (alarmVal) alarmVal.textContent = "EMERGENCY 105dB";
           playHazardAlert();
         }
@@ -1144,7 +1144,7 @@
       mount.innerHTML =
         '<div class="sim-container">' +
           '<div class="sim-header-row">' +
-            '<span class="sim-title">ðŸ“¹ YOLOv8 Edge Vision & RTSP Feed Pipeline</span>' +
+            '<span class="sim-title">📹 YOLOv8 Edge Vision & RTSP Feed Pipeline</span>' +
             '<span class="sim-live-badge">CUDA INFERENCE ACTIVE</span>' +
           '</div>' +
           '<div class="sim-cv-screen">' +
@@ -1238,7 +1238,7 @@
       mount.innerHTML =
         '<div class="sim-container">' +
           '<div class="sim-header-row">' +
-            '<span class="sim-title">ðŸ“¡ Ultrasonic ToF Ranging & Servo Sweep Radar</span>' +
+            '<span class="sim-title">📡 Ultrasonic ToF Ranging & Servo Sweep Radar</span>' +
             '<span class="sim-live-badge">COM4 9600 BAUD</span>' +
           '</div>' +
           '<div class="radar-canvas-wrap">' +
@@ -1250,7 +1250,7 @@
             '</div>' +
           '</div>' +
           '<div style="display: flex; justify-content: space-between; align-items: center;">' +
-            '<button type="button" class="quick-utility-btn highlight-btn" id="radar-ping-btn"><span>ðŸ”Š Trigger Sonar Ping</span></button>' +
+            '<button type="button" class="quick-utility-btn highlight-btn" id="radar-ping-btn"><span>🔊 Trigger Sonar Ping</span></button>' +
             '<span style="font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-faint);">Formula: Distance = (T_echo * 0.0343) / 2 cm</span>' +
           '</div>' +
         '</div>';
@@ -1539,31 +1539,31 @@
   var cmdCommands = [
     // Pages
     { cat: "Pages", title: "home.jsx", desc: "Interactive Developer Portfolio & Engineering Workbench", icon: "⚡", url: "index.html" },
-    { cat: "Pages", title: "curriculum-vitae.md", desc: "Complete ATS-Verified Engineering CV", icon: "ðŸ“„", url: "cv.html" },
+    { cat: "Pages", title: "curriculum-vitae.md", desc: "Complete ATS-Verified Engineering CV", icon: "📄", url: "cv.html" },
     { cat: "Pages", title: "about.md", desc: "Biography, Academic Background & Coursework", icon: "ðŸ“", url: "about.html" },
-    { cat: "Pages", title: "toolkit.jsx", desc: "Technical Skills, Microcontrollers & Frameworks", icon: "ðŸ› ï¸", url: "skills.html" },
-    { cat: "Pages", title: "gallery.jsx", desc: "All Engineered Projects & Field Photos", icon: "ðŸ“‚", url: "projects.html" },
+    { cat: "Pages", title: "toolkit.jsx", desc: "Technical Skills, Microcontrollers & Frameworks", icon: "🛠️", url: "skills.html" },
+    { cat: "Pages", title: "gallery.jsx", desc: "All Engineered Projects & Field Photos", icon: "📂", url: "projects.html" },
     { cat: "Pages", title: "experience.md", desc: "BLW Varanasi Industrial Training & Leadership", icon: "ðŸ­", url: "experience.html" },
     { cat: "Pages", title: "contact.jsx", desc: "Direct Channels, Email & Inquiry Form", icon: "✉️", url: "contact.html" },
 
     // Projects
-    { cat: "Engineered Projects", title: "MineSafe-X â€“ Making Mining Transport Safer", desc: "Team Colliders · V2V/V2I Collision Avoidance & ESP-NOW", icon: "🚨", bookIndex: 0, url: "projects.html" },
-    { cat: "Engineered Projects", title: "Traffic Violation Detection System", desc: "YOLOv8, EasyOCR & AI Traffic Assistant", icon: "ðŸ“¹", bookIndex: 1, url: "projects.html" },
+    { cat: "Engineered Projects", title: "MineSafe-X – Making Mining Transport Safer", desc: "Team Colliders · V2V/V2I Collision Avoidance & ESP-NOW", icon: "🚨", bookIndex: 0, url: "projects.html" },
+    { cat: "Engineered Projects", title: "Traffic Violation Detection System", desc: "YOLOv8, EasyOCR & AI Traffic Assistant", icon: "📹", bookIndex: 1, url: "projects.html" },
     { cat: "Engineered Projects", title: "AI-Based Osteoarthritis Screening", desc: "Multimodal OA Screening (NER) · 4 Languages & Offline", icon: "🩺", bookIndex: 2, url: "projects.html" },
     { cat: "Engineered Projects", title: "High-Current Dual H-Bridge RC Vehicle", desc: "4WD Robotics Chassis & Power Isolation", icon: "🚗", bookIndex: 3, url: "projects.html" },
     { cat: "Engineered Projects", title: "F450 Multirotor UAV Platform", desc: "Aerial Quadcopter & KK2.1.5 PID Avionics", icon: "🚁", bookIndex: 4, url: "projects.html" },
-    { cat: "Engineered Projects", title: "Ultrasonic Spatial Radar Bench", desc: "Acoustic ToF Ranging & UART Servo Sweep", icon: "ðŸ“¡", bookIndex: 5, url: "projects.html" },
-    { cat: "Engineered Projects", title: "Contact Management System", desc: "Python & JSON Structured CLI Application", icon: "ðŸ“‹", bookIndex: 6, url: "projects.html" },
+    { cat: "Engineered Projects", title: "Ultrasonic Spatial Radar Bench", desc: "Acoustic ToF Ranging & UART Servo Sweep", icon: "📡", bookIndex: 5, url: "projects.html" },
+    { cat: "Engineered Projects", title: "Contact Management System", desc: "Python & JSON Structured CLI Application", icon: "📋", bookIndex: 6, url: "projects.html" },
     { cat: "Engineered Projects", title: "Python Adventure Game", desc: "Interactive Choice-Driven Narrative Engine", icon: "🎮", bookIndex: 7, url: "projects.html" },
 
     // Actions
     { cat: "Quick Actions", title: "Cycle Theme (Dark / Light / Anime / Warm)", desc: "Switch between Cyber-Dark, Clean Studio, Cyber-Anime & Warm Sunset", icon: "🎨", action: "toggle_theme" },
-    { cat: "Quick Actions", title: "Toggle Synthesizer Sound", desc: "Mute or enable interactive Web Audio effects", icon: "ðŸ”Š", action: "toggle_sound" },
-    { cat: "Quick Actions", title: "Download Résumé PDF", desc: "Open Navnit_Kumar_Resume.pdf (292 KB)", icon: "ðŸ“¥", url: "resume/Navnit_Kumar_Resume.pdf", external: true },
-    { cat: "Quick Actions", title: "Copy Email Address", desc: "nkmaurya934124@gmail.com", icon: "ðŸ“‹", action: "copy_email" },
-    { cat: "Quick Actions", title: "Copy Contact Phone", desc: "+91 93412 40119", icon: "ðŸ“ž", action: "copy_phone" },
-    { cat: "Quick Actions", title: "Open GitHub Profile", desc: "github.com/navnit919", icon: "ðŸ™", url: "https://github.com/navnit919", external: true },
-    { cat: "Quick Actions", title: "Open LinkedIn Profile", desc: "linkedin.com/in/navnit-kumar-72b470330", icon: "ðŸ’¼", url: "https://linkedin.com/in/navnit-kumar-72b470330", external: true }
+    { cat: "Quick Actions", title: "Toggle Synthesizer Sound", desc: "Mute or enable interactive Web Audio effects", icon: "🔊", action: "toggle_sound" },
+    { cat: "Quick Actions", title: "Download Résumé PDF", desc: "Open Navnit_Kumar_Resume.pdf (292 KB)", icon: "📥", url: "resume/Navnit_Kumar_Resume.pdf", external: true },
+    { cat: "Quick Actions", title: "Copy Email Address", desc: "nkmaurya934124@gmail.com", icon: "📧", action: "copy_email" },
+    { cat: "Quick Actions", title: "Copy Contact Phone", desc: "+91 93412 40119", icon: "📞", action: "copy_phone" },
+    { cat: "Quick Actions", title: "Open GitHub Profile", desc: "github.com/navnit919", icon: "🐙", url: "https://github.com/navnit919", external: true },
+    { cat: "Quick Actions", title: "Open LinkedIn Profile", desc: "linkedin.com/in/navnit-kumar-72b470330", icon: "💼", url: "https://linkedin.com/in/navnit-kumar-72b470330", external: true }
   ];
 
   var cmdPaletteOverlay = document.getElementById("cmd-palette-overlay");
@@ -1575,7 +1575,7 @@
     cmdPaletteOverlay.innerHTML =
       '<div class="cmd-palette-modal" id="cmd-palette-modal">' +
         '<div class="cmd-palette-search-wrap">' +
-          '<span class="cmd-palette-icon">ðŸ”</span>' +
+          '<span class="cmd-palette-icon">🔍</span>' +
           '<input type="text" class="cmd-palette-input" id="cmd-palette-input" placeholder="Jump to project, page, skill, or run action..." autocomplete="off" />' +
           '<span class="cmd-esc-chip">ESC</span>' +
         '</div>' +
