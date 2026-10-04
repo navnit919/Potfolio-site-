@@ -1540,11 +1540,11 @@
     // Pages
     { cat: "Pages", title: "home.jsx", desc: "Interactive Developer Portfolio & Engineering Workbench", icon: "⚡", url: "index.html" },
     { cat: "Pages", title: "curriculum-vitae.md", desc: "Complete ATS-Verified Engineering CV", icon: "📄", url: "cv.html" },
-    { cat: "Pages", title: "about.md", desc: "Biography, Academic Background & Coursework", icon: "ðŸ“", url: "about.html" },
-    { cat: "Pages", title: "toolkit.jsx", desc: "Technical Skills, Microcontrollers & Frameworks", icon: "🛠️", url: "skills.html" },
+    { cat: "Pages", title: "about.md", desc: "Biography, Academic Background & Coursework", icon: "📖", url: "about.html" },
+    { cat: "Pages", title: "toolkit.jsx", desc: "Technical Skills, Microcontrollers & Frameworks", icon: "🛠️", url: "skills.html" },
     { cat: "Pages", title: "gallery.jsx", desc: "All Engineered Projects & Field Photos", icon: "📂", url: "projects.html" },
-    { cat: "Pages", title: "experience.md", desc: "BLW Varanasi Industrial Training & Leadership", icon: "ðŸ­", url: "experience.html" },
-    { cat: "Pages", title: "contact.jsx", desc: "Direct Channels, Email & Inquiry Form", icon: "✉️", url: "contact.html" },
+    { cat: "Pages", title: "experience.md", desc: "BLW Varanasi Industrial Training & Leadership", icon: "🏭", url: "experience.html" },
+    { cat: "Pages", title: "contact.jsx", desc: "Direct Channels, Email & Inquiry Form", icon: "✉️", url: "contact.html" },
 
     // Projects
     { cat: "Engineered Projects", title: "MineSafe-X – Making Mining Transport Safer", desc: "Team Colliders · V2V/V2I Collision Avoidance & ESP-NOW", icon: "🚨", bookIndex: 0, url: "projects.html" },
