@@ -144,6 +144,102 @@
     <div class="projects-gallery-grid" id="projects-grid-major">
 
       <!-- ================= 1. MineSafe-X ================= -->
+      <article class="glass-panel project-card" data-category="ai-vision">
+        <div class="project-media-wrap">
+          <img src="images/Screenshot 2026-09-17 110427.png" alt="AI-Based Osteoarthritis Risk Marker Screening System" class="lightbox-trigger"
+            data-caption="AI-Based Osteoarthritis Risk Marker Screening System: 4-Tier Multimodal Pipeline for the North Eastern Region" />
+          <span class="project-badge-float">Smart India Hackathon 2026 Candidate · North Eastern Region</span>
+        </div>
+
+        <!-- Comprehensive Proof Thumbnails Row -->
+        <div class="project-thumbnails-row">
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120212.png"
+            data-caption="Clinical Multimodal Workstation: Live system nodes (DenseNet-121, MediaPipe Tasks 40-Frame Bilateral, XGBoost V5, ESP32 IMU)">
+            <img src="images/Screenshot 2026-09-16 120212.png" alt="Clinical Workstation" />
+            <span class="thumb-label">Clinical Portal</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120345.png"
+            data-caption="DenseNet-121 Deep Learning Radiograph Analysis: KL Grade 4 (Severe Marked JSN & Sclerosis, 93.6% Confidence)">
+            <img src="images/Screenshot 2026-09-16 120345.png" alt="DenseNet-121 Radiograph" />
+            <span class="thumb-label">X-Ray AI (93.6%)</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-19 102412.png"
+            data-caption="MediaPipe Pose computer vision real-time gait skeletal landmark tracking on Navnit Kumar during walking assessment">
+            <img src="images/Screenshot 2026-09-19 102412.png" alt="MediaPipe Gait Tracking" />
+            <span class="thumb-label">Pose Tracking</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120436.png"
+            data-caption="ESP32 + MPU6050 6-DOF wearable inertial motion sensor waveform stream (Thigh Accel 1.12g, Shank Gyro 45.2·/s)">
+            <img src="images/Screenshot 2026-09-16 120436.png" alt="Motion Sensor Waveform" />
+            <span class="thumb-label">IMU Waveform</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120458.png"
+            data-caption="Multimodal Diagnostic Report with 4-Axis radar chart (X-Ray 40%, Gait 30%, WOMAC 20%, IMU 10%) & Composite Score 74.9/100">
+            <img src="images/Screenshot 2026-09-16 120458.png" alt="Multimodal Radar Report" />
+            <span class="thumb-label">Radar Score (74.9)</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120513.png"
+            data-caption="Official Clinical Screening Report PDF generated for Navnit Kumar (OA-2026-NITN) with triage recommendations">
+            <img src="images/Screenshot 2026-09-16 120513.png" alt="Clinical PDF Report" />
+            <span class="thumb-label">Clinical PDF</span>
+          </div>
+          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 162150.png"
+            data-caption="Smart India Hackathon 2026 Technical Approach slide: PyTorch, XGBoost, OpenCV, MediaPipe, IMU, and FSR sensor stack">
+            <img src="images/Screenshot 2026-09-16 162150.png" alt="SIH Technical Approach" />
+            <span class="thumb-label">SIH Tech Stack</span>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-header-row">
+            <h3>AI-Based Osteoarthritis Risk Marker Screening System</h3>
+            <span class="project-num-tag">// 03</span>
+          </div>
+          <p class="project-desc-text">
+            An <strong>AI-based system</strong> engineered for early screening of Osteoarthritis (OA) risk markers in the <strong>North Eastern Region (NER)</strong>. Designed for accessible, patient-friendly screening across remote clinics, healthcare centres, and rural camps where diagnostic infrastructure is limited.
+          </p>
+
+          <div class="workflow-strip" style="display:flex; flex-wrap:wrap; gap:8px; font-size:11px; padding:8px 12px; margin:10px 0; background:var(--accent-glow); border-radius:8px; border:1px solid var(--border-color); font-family:var(--font-mono); color:var(--text-primary);">
+            <span><strong>Input:</strong> Symptoms + Gait + Sensors + X-Ray</span> ➔ <span><strong>▪  AI Analysis ➔</strong></span> ➔ <span><strong>Output:</strong> Screening Assessment + Risk Markers + Key Findings</span>
+          </div>
+
+          <div class="specs-accordion">
+            <details open>
+              <summary><strong>4-Tier Multimodal Solution &amp; Key Features</strong></summary>
+              <ul class="project-bullets">
+                <li><strong>1. Clinical Questionnaire:</strong> Captures joint pain, stiffness, and mobility symptoms through a structured digital intake.</li>
+                <li><strong>2. Gait &amp; Sensors:</strong> Camera with <strong>MediaPipe Pose</strong>, wearable <strong>ESP32 + 3× MPU6050 IMU</strong>, and <strong>FSR pressure insoles</strong> analyze bilateral joint movement, posture, and dynamic weight distribution.</li>
+                <li><strong>3. Knee X-Ray AI:</strong> Deep learning model (<strong>DenseNet-121</strong>) analyzes knee radiographs for OA-related features including Joint Space Narrowing (JSN) and Kellgren-Lawrence (KL Grades 0·4) with 93.6% confidence.</li>
+                <li><strong>4. AI + Unified Dashboard:</strong> An <strong>XGBoost</strong> classifier fuses all modalities to generate a composite screening assessment, risk marker breakdown, and multi-axis radar score.</li>
+                <li><strong>Multilingual Localization:</strong> Fully translated into <strong>Assamese, Bengali, Hindi &amp; English</strong> to empower diverse regional healthcare workers and patients.</li>
+                <li><strong>100% Offline Capable:</strong> Fully operational without internet connectivity, making it ideal for rural outreach camps and remote primary health centers.</li>
+                <li><strong>Clinical Scope &amp; Target Users:</strong> Serves patients, doctors, physiotherapists, and healthcare workers. <em>Note: The system supports early screening and does not replace professional medical diagnosis.</em></li>
+              </ul>
+            </details>
+          </div>
+
+          <div class="project-footer-row">
+            <div class="tag-cloud">
+              <span class="highlight">Multimodal AI</span>
+              <span class="highlight">NER Healthcare</span>
+              <span class="highlight">DenseNet-121</span>
+              <span>MediaPipe Pose</span>
+              <span>XGBoost</span>
+              <span>ESP32 IMU / FSR</span>
+              <span>Assamese / Bengali / Hindi</span>
+              <span>100% Offline Capable</span>
+            </div>
+            <div class="project-actions-btns">
+              <a href="https://drive.google.com/drive/folders/13-yXUd3_mVVW_8rUecfljQ8K5v007EYM" target="_blank" rel="noopener" class="project-drive-link">
+                Drive Prototype &amp; Datasets ?
+              </a>
+              <a href="https://github.com/navnit919" target="_blank" rel="noopener" class="project-repo-link">GitHub ➔</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- ================= 4. F450 Multirotor UAV ================= -->
       <article class="glass-panel project-card" data-category="embedded">
         <div class="project-media-wrap gallery-wrap" id="gallery-minesafe">
           <div class="gallery-main">
@@ -285,102 +381,6 @@
       </article>
 
       <!-- ================= 3. Osteoarthritis AI ================= -->
-      <article class="glass-panel project-card" data-category="ai-vision">
-        <div class="project-media-wrap">
-          <img src="images/Screenshot 2026-09-17 110427.png" alt="AI-Based Osteoarthritis Risk Marker Screening System" class="lightbox-trigger"
-            data-caption="AI-Based Osteoarthritis Risk Marker Screening System: 4-Tier Multimodal Pipeline for the North Eastern Region" />
-          <span class="project-badge-float">Smart India Hackathon 2026 Candidate · North Eastern Region</span>
-        </div>
-
-        <!-- Comprehensive Proof Thumbnails Row -->
-        <div class="project-thumbnails-row">
-          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120212.png"
-            data-caption="Clinical Multimodal Workstation: Live system nodes (DenseNet-121, MediaPipe Tasks 40-Frame Bilateral, XGBoost V5, ESP32 IMU)">
-            <img src="images/Screenshot 2026-09-16 120212.png" alt="Clinical Workstation" />
-            <span class="thumb-label">Clinical Portal</span>
-          </div>
-          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120345.png"
-            data-caption="DenseNet-121 Deep Learning Radiograph Analysis: KL Grade 4 (Severe Marked JSN & Sclerosis, 93.6% Confidence)">
-            <img src="images/Screenshot 2026-09-16 120345.png" alt="DenseNet-121 Radiograph" />
-            <span class="thumb-label">X-Ray AI (93.6%)</span>
-          </div>
-          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-19 102412.png"
-            data-caption="MediaPipe Pose computer vision real-time gait skeletal landmark tracking on Navnit Kumar during walking assessment">
-            <img src="images/Screenshot 2026-09-19 102412.png" alt="MediaPipe Gait Tracking" />
-            <span class="thumb-label">Pose Tracking</span>
-          </div>
-          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120436.png"
-            data-caption="ESP32 + MPU6050 6-DOF wearable inertial motion sensor waveform stream (Thigh Accel 1.12g, Shank Gyro 45.2·/s)">
-            <img src="images/Screenshot 2026-09-16 120436.png" alt="Motion Sensor Waveform" />
-            <span class="thumb-label">IMU Waveform</span>
-          </div>
-          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120458.png"
-            data-caption="Multimodal Diagnostic Report with 4-Axis radar chart (X-Ray 40%, Gait 30%, WOMAC 20%, IMU 10%) & Composite Score 74.9/100">
-            <img src="images/Screenshot 2026-09-16 120458.png" alt="Multimodal Radar Report" />
-            <span class="thumb-label">Radar Score (74.9)</span>
-          </div>
-          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 120513.png"
-            data-caption="Official Clinical Screening Report PDF generated for Navnit Kumar (OA-2026-NITN) with triage recommendations">
-            <img src="images/Screenshot 2026-09-16 120513.png" alt="Clinical PDF Report" />
-            <span class="thumb-label">Clinical PDF</span>
-          </div>
-          <div class="thumb-frame lightbox-trigger" data-src="images/Screenshot 2026-09-16 162150.png"
-            data-caption="Smart India Hackathon 2026 Technical Approach slide: PyTorch, XGBoost, OpenCV, MediaPipe, IMU, and FSR sensor stack">
-            <img src="images/Screenshot 2026-09-16 162150.png" alt="SIH Technical Approach" />
-            <span class="thumb-label">SIH Tech Stack</span>
-          </div>
-        </div>
-
-        <div class="project-content">
-          <div class="project-header-row">
-            <h3>AI-Based Osteoarthritis Risk Marker Screening System</h3>
-            <span class="project-num-tag">// 03</span>
-          </div>
-          <p class="project-desc-text">
-            An <strong>AI-based system</strong> engineered for early screening of Osteoarthritis (OA) risk markers in the <strong>North Eastern Region (NER)</strong>. Designed for accessible, patient-friendly screening across remote clinics, healthcare centres, and rural camps where diagnostic infrastructure is limited.
-          </p>
-
-          <div class="workflow-strip" style="display:flex; flex-wrap:wrap; gap:8px; font-size:11px; padding:8px 12px; margin:10px 0; background:var(--accent-glow); border-radius:8px; border:1px solid var(--border-color); font-family:var(--font-mono); color:var(--text-primary);">
-            <span><strong>Input:</strong> Symptoms + Gait + Sensors + X-Ray</span> ➔ <span><strong>▪  AI Analysis ➔</strong></span> ➔ <span><strong>Output:</strong> Screening Assessment + Risk Markers + Key Findings</span>
-          </div>
-
-          <div class="specs-accordion">
-            <details open>
-              <summary><strong>4-Tier Multimodal Solution &amp; Key Features</strong></summary>
-              <ul class="project-bullets">
-                <li><strong>1. Clinical Questionnaire:</strong> Captures joint pain, stiffness, and mobility symptoms through a structured digital intake.</li>
-                <li><strong>2. Gait &amp; Sensors:</strong> Camera with <strong>MediaPipe Pose</strong>, wearable <strong>ESP32 + 3× MPU6050 IMU</strong>, and <strong>FSR pressure insoles</strong> analyze bilateral joint movement, posture, and dynamic weight distribution.</li>
-                <li><strong>3. Knee X-Ray AI:</strong> Deep learning model (<strong>DenseNet-121</strong>) analyzes knee radiographs for OA-related features including Joint Space Narrowing (JSN) and Kellgren-Lawrence (KL Grades 0·4) with 93.6% confidence.</li>
-                <li><strong>4. AI + Unified Dashboard:</strong> An <strong>XGBoost</strong> classifier fuses all modalities to generate a composite screening assessment, risk marker breakdown, and multi-axis radar score.</li>
-                <li><strong>Multilingual Localization:</strong> Fully translated into <strong>Assamese, Bengali, Hindi &amp; English</strong> to empower diverse regional healthcare workers and patients.</li>
-                <li><strong>100% Offline Capable:</strong> Fully operational without internet connectivity, making it ideal for rural outreach camps and remote primary health centers.</li>
-                <li><strong>Clinical Scope &amp; Target Users:</strong> Serves patients, doctors, physiotherapists, and healthcare workers. <em>Note: The system supports early screening and does not replace professional medical diagnosis.</em></li>
-              </ul>
-            </details>
-          </div>
-
-          <div class="project-footer-row">
-            <div class="tag-cloud">
-              <span class="highlight">Multimodal AI</span>
-              <span class="highlight">NER Healthcare</span>
-              <span class="highlight">DenseNet-121</span>
-              <span>MediaPipe Pose</span>
-              <span>XGBoost</span>
-              <span>ESP32 IMU / FSR</span>
-              <span>Assamese / Bengali / Hindi</span>
-              <span>100% Offline Capable</span>
-            </div>
-            <div class="project-actions-btns">
-              <a href="https://drive.google.com/drive/folders/13-yXUd3_mVVW_8rUecfljQ8K5v007EYM" target="_blank" rel="noopener" class="project-drive-link">
-                Drive Prototype &amp; Datasets ?
-              </a>
-              <a href="https://github.com/navnit919" target="_blank" rel="noopener" class="project-repo-link">GitHub ➔</a>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <!-- ================= 4. F450 Multirotor UAV ================= -->
       <article class="glass-panel project-card" data-category="robotics">
         <div class="project-media-wrap">
           <img src="images/drone.jpeg" alt="Multirotor UAV Platform" class="lightbox-trigger"
