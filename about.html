@@ -18,6 +18,7 @@
     rel="stylesheet" />
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="preload" as="image" href="images/profile_photo.jpeg" />
 </head>
 
 <body class="bookshelf-layout" data-theme="light">
@@ -217,7 +218,7 @@
         <div class="pillar-card" style="border-top: 3px solid var(--accent-amber);">
           <div class="pillar-icon-box" style="background: color-mix(in srgb, var(--accent-amber) 15%, transparent); color: var(--accent-amber);">🛰️</div>
           <h3><span class="hl-amber">Embedded Firmware &amp; Telemetry</span></h3>
-          <p>Developing low-latency firmware on <strong class="hl-amber">ESP32</strong>, <strong class="hl-cyan">Arduino Uno</strong>, and <strong class="hl-emerald">Raspberry Pi</strong> utilizing <strong class="hl-amber">ESP-NOW (&lt;5ms)</strong> peer-to-peer connectionless mesh, 24GHz mmWave radar, and ultrasonic time-of-flight acoustic ranging without relying on the internet.</p>
+          <p>Developing low-latency firmware on <strong class="hl-amber">ESP32</strong>, <strong class="hl-cyan">Arduino Uno</strong>, and <strong class="hl-emerald">Raspberry Pi</strong> utilizing <strong class="hl-amber">ESP-NOW (Bench: &lt;5ms)</strong> peer-to-peer connectionless mesh, 24GHz mmWave radar, and ultrasonic time-of-flight acoustic ranging without relying on the internet.</p>
         </div>
 
         <div class="pillar-card" style="border-top: 3px solid var(--accent-purple);">
@@ -348,49 +349,49 @@
 
         <h3 style="margin-top: 3rem; margin-bottom: 1rem; color: var(--text-main); border-bottom: 1px solid var(--sidebar-border); padding-bottom: 0.5rem; font-family: var(--font-sans);">Photo Album</h3>
         <div class="photo-album-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem;">
-          <img src="images/presentation_traffic.jpeg" alt="Traffic Violation Presentation" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
-          <img src="images/hobby-1.jpeg" alt="Album Photo 1" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
-          <img src="images/hobby-2.jpeg" alt="Album Photo 2" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
-          <img src="images/hobby-3.jpeg" alt="Album Photo 3" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
-          <img src="images/hobby-4.jpeg" alt="Album Photo 4" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
-          <img src="images/hobby-5.jpeg" alt="Album Photo 5" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+          <img src="images/presentation_traffic.jpeg" alt="Traffic Violation Presentation" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
+          <img src="images/hobby-1.jpeg" alt="Album Photo 1" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
+          <img src="images/hobby-2.jpeg" alt="Album Photo 2" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
+          <img src="images/hobby-3.jpeg" alt="Album Photo 3" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
+          <img src="images/hobby-4.jpeg" alt="Album Photo 4" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
+          <img src="images/hobby-5.jpeg" alt="Album Photo 5" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
 
         </div>
 
         <h3 style="margin-top: 3rem; margin-bottom: 1rem; color: var(--text-main); border-bottom: 1px solid var(--sidebar-border); padding-bottom: 0.5rem; font-family: var(--font-sans);">Certificates Gallery</h3>
         <div class="photo-album-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem;">
           <a href="images/pmshri_cert.jpg" class="cert-link" style="display: block;">
-            <img src="images/pmshri_cert.jpg" alt="PM SHRI Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+            <img src="images/pmshri_cert.jpg" alt="PM SHRI Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
           </a>
           <a href="images/tech_avinya_cert2.jpg" class="cert-link" style="display: block;">
-            <img src="images/tech_avinya_cert2.jpg" alt="Tech Avinya Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+            <img src="images/tech_avinya_cert2.jpg" alt="Tech Avinya Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
           </a>
           <a href="images/hack4brahma.jpg" class="cert-link" style="display: block;">
-            <img src="images/hack4brahma.jpg" alt="Hack4Brahma Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+            <img src="images/hack4brahma.jpg" alt="Hack4Brahma Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
           </a>
           <a href="images/WhatsApp Image 2026-10-04 at 10.34.22 PM.jpeg" class="cert-link" style="display: block;">
-            <img src="images/WhatsApp Image 2026-10-04 at 10.34.22 PM.jpeg" alt="Circuit Design Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+            <img src="images/WhatsApp Image 2026-10-04 at 10.34.22 PM.jpeg" alt="Circuit Design Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
           </a>
           <a href="images/WhatsApp Image 2026-10-04 at 10.33.12 PM.jpeg" class="cert-link" style="display: block;">
-            <img src="images/WhatsApp Image 2026-10-04 at 10.33.12 PM.jpeg" alt="Ideathon Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+            <img src="images/WhatsApp Image 2026-10-04 at 10.33.12 PM.jpeg" alt="Ideathon Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
           </a>
           <a href="images/WhatsApp Image 2026-10-04 at 10.33.57 PM.jpeg" class="cert-link" style="display: block;">
-            <img src="images/WhatsApp Image 2026-10-04 at 10.33.57 PM.jpeg" alt="Science Day Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+            <img src="images/WhatsApp Image 2026-10-04 at 10.33.57 PM.jpeg" alt="Science Day Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
           </a>
           <a href="images/WhatsApp Image 2026-10-04 at 10.39.14 PM.jpeg" class="cert-link" style="display: block;">
-            <img src="images/WhatsApp Image 2026-10-04 at 10.39.14 PM.jpeg" alt="3D Printing Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+            <img src="images/WhatsApp Image 2026-10-04 at 10.39.14 PM.jpeg" alt="3D Printing Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
           </a>
           <a href="images/WhatsApp Image 2026-10-04 at 10.32.33 PM.jpeg" class="cert-link" style="display: block;">
-            <img src="images/WhatsApp Image 2026-10-04 at 10.32.33 PM.jpeg" alt="ECSBC Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+            <img src="images/WhatsApp Image 2026-10-04 at 10.32.33 PM.jpeg" alt="ECSBC Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
           </a>
           <a href="images/WhatsApp Image 2026-10-04 at 10.40.52 PM.jpeg" class="cert-link" style="display: block;">
-            <img src="images/WhatsApp Image 2026-10-04 at 10.40.52 PM.jpeg" alt="Locomotive Fieldwork Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+            <img src="images/WhatsApp Image 2026-10-04 at 10.40.52 PM.jpeg" alt="Locomotive Fieldwork Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
           </a>
           <a href="images/WhatsApp Image 2026-10-04 at 10.47.00 PM.jpeg" class="cert-link" style="display: block;">
-            <img src="images/WhatsApp Image 2026-10-04 at 10.47.00 PM.jpeg" alt="Drone Bootcamp Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+            <img src="images/WhatsApp Image 2026-10-04 at 10.47.00 PM.jpeg" alt="Drone Bootcamp Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
           </a>
           <a href="images/capable india certificate.jpeg" class="cert-link" style="display: block;">
-            <img src="images/capable india certificate.jpeg" alt="Agentic AI Saksham Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/>
+            <img src="images/capable india certificate.jpeg" alt="Agentic AI Saksham Certificate" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px; border: 2px solid var(--sidebar-border); transition: transform 0.3s; cursor: pointer;" onmouseover="this.style.transform='scale(1.05)'" onmouseout="this.style.transform='scale(1)'"/ loading="lazy">
           </a>
         </div>
       </div>
@@ -410,7 +411,7 @@
     <!-- Certificate Lightbox Modal -->
     <div id="certModal" class="cert-modal">
       <span class="cert-modal-close">&times;</span>
-      <img class="cert-modal-content" id="certModalImg" alt="Certificate" />
+      <img class="cert-modal-content" id="certModalImg" alt="Certificate" / loading="lazy">
     </div>
 
   </main>

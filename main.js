@@ -1170,7 +1170,7 @@
         if (latVal) latVal.textContent = lat + " ms";
       }, 700);
 
-    // 2: Ostero AI
+    // 2: OsteoCare – AI-Assisted OA Risk Screening
     } else if (projectIdx === 2) {
       mount.innerHTML =
         '<div class="sim-container">' +
@@ -2109,7 +2109,7 @@
       "Low-Latency Embedded Mesh (<5ms ESP-NOW)",
       "Autonomous Multirotor UAVs & Flight Avionics",
       "Locomotive Traction Power Systems (33kV MRS)",
-      "Multimodal OA Risk Screening AI (NER)"
+      "Multimodal OsteoCare – AI-Assisted OA Risk Screening (NER)"
     ];
 
     var roleIdx = 0;
@@ -2530,7 +2530,7 @@
         response: "<strong>Navnit's 8 Flagship Engineered Builds:</strong><br><br>" +
           "1. 🚀 <strong>MineSafe-X:</strong> mmWave Radar & ESP-NOW V2V Mining Transport Safety System.<br>" +
           "2. 👁️ <strong>Edge AI Traffic Violation & ANPR:</strong> YOLOv8 + EasyOCR + LLM Assistant.<br>" +
-          "3. 🏥 <strong>Ostero AI:</strong> Multimodal Osteoarthritis Risk Screening Pipeline.<br>" +
+          "3. 🏥 <strong>OsteoCare – AI-Assisted OA Risk Screening:</strong> Multimodal Osteoarthritis Risk Screening Pipeline.<br>" +
           "4. 📇 <strong>Contact Management System:</strong> Python 3 + JSON CRUD CLI with input validation.<br>" +
           "5. 🎮 <strong>Interactive Adventure Game:</strong> Python branching story state engine.<br>" +
           "6. 🚁 <strong>F450 Multirotor UAV:</strong> Autonomous quadcopter with KK2.1.5 PID gyro stabilization.<br>" +
@@ -2565,7 +2565,7 @@
       // 9. SPECIFIC PROJECT 3: OSTERO AI
       {
         intents: ["ostero", "osteoarthritis", "knee", "health", "healthcare", "xray", "x-ray", "densenet", "xgboost", "gait"],
-        response: "<strong>Ostero AI – Multimodal Osteoarthritis Risk Marker Screening</strong><br><br>" +
+        response: "<strong>OsteoCare – AI-Assisted OA Risk Screening – Multimodal Osteoarthritis Risk Marker Screening</strong><br><br>" +
           "• <strong>Purpose:</strong> Low-cost clinical screening system tailored for rural health centers across India's North Eastern Region (NER).<br>" +
           "• <strong>4-Tier Assessment:</strong> Questionnaire + MediaPipe Pose gait analysis + wearable ESP32 IMU/FSR insoles + <strong>DenseNet-121</strong> knee X-ray feature extraction.<br>" +
           "• <strong>Decision Engine:</strong> <strong>XGBoost classifier</strong> with 4-axis radar diagnostics.<br>" +

@@ -21,6 +21,7 @@
     rel="stylesheet" />
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="preload" as="image" href="images/profile_photo.jpeg" />
 </head>
 
 <body class="bookshelf-layout" data-theme="light">
@@ -263,7 +264,7 @@
         <div class="telemetry-node">
           <span class="telemetry-num" data-prefix="<" data-target="5" data-suffix="ms">&lt;5ms</span>
           <span class="telemetry-label">ESP-NOW P2P Mesh</span>
-          <span class="telemetry-sub">Zero-Infra Telemetry</span>
+          <span class="telemetry-sub">Measured <5ms latency in bench testing</span>
         </div>
         <div class="telemetry-node builds">
           <span class="telemetry-num" data-target="8" data-suffix="+">8+</span>
@@ -335,8 +336,8 @@
           <div class="deck-item-badge">YOLOv8 + EasyOCR</div>
         </button>
 
-        <!-- Deck Item 2: Ostero AI -->
-        <button type="button" class="tech-deck-item book-spine" data-index="2" data-category="ai" role="tab" aria-selected="false" title="Select OA Risk Screening AI">
+        <!-- Deck Item 2: OsteoCare – AI-Assisted OA Risk Screening -->
+        <button type="button" class="tech-deck-item book-spine" data-index="2" data-category="ai" role="tab" aria-selected="false" title="Select OsteoCare – AI-Assisted OA Risk Screening">
           <div class="deck-item-top">
             <span class="deck-item-code">// 03</span>
             <span class="deck-pulse-dot"></span>
@@ -347,7 +348,7 @@
             </svg>
           </div>
           <div class="deck-item-meta">
-            <h3 class="deck-item-name">OA Risk Screening AI</h3>
+            <h3 class="deck-item-name">OsteoCare – AI-Assisted OA Risk Screening</h3>
             <span class="deck-item-sub">Multimodal OA (NER Region)</span>
           </div>
           <div class="deck-item-badge">4 Languages · Offline</div>
@@ -497,7 +498,7 @@
           </div>
           <div class="quick-spec-item">
             <span class="qspec-label">Deployment Status</span>
-            <strong class="qspec-val" id="qspec-status">Bench Tested &amp; Field Verified</strong>
+            <strong class="qspec-val" id="qspec-status">Bench Tested / Prototype Validated</strong>
           </div>
         </div>
 
@@ -534,7 +535,7 @@
           </div>
 
           <div class="monitor-screen-frame">
-            <img src="images/minesafe.jpg" id="stage-preview-img" alt="Engineered System Hardware Preview" />
+            <img src="images/minesafe.jpg" id="stage-preview-img" alt="Engineered System Hardware Preview" / loading="lazy">
             <div class="monitor-overlay-reticle">
               <div class="reticle-corner tl"></div>
               <div class="reticle-corner tr"></div>
@@ -652,7 +653,7 @@
             <span class="award-type">Industrial Certification</span>
             <span class="award-rank">Certified</span>
           </div>
-          <h4 class="award-name">33kV Locomotive Traction &amp; MRS Substation</h4>
+          <h4 class="award-name">33kV Locomotive Traction &amp; MRS Substation (Internship Study)</h4>
           <p class="award-org">Banaras Locomotive Works (BLW), Indian Railways, Varanasi</p>
           <div class="award-meta-row">
             <span class="award-status">✅ Accredited Fieldwork</span>
@@ -762,7 +763,7 @@
 
         <div class="sheet-card" data-select-book="2">
           <span class="sheet-card-num">03</span>
-          <h4>Ostero · AI Health</h4>
+          <h4>OsteoCare – AI-Assisted OA Risk Screening</h4>
           <p>Non-invasive osteoarthritis gait kinematics &amp; dynamic plantar pressure analysis with XGBoost.</p>
           <div class="sheet-tags"><span>XGBoost</span><span>ESP32</span><span>DenseNet121</span><span>MediaPipe</span></div>
         </div>
@@ -830,7 +831,7 @@
       <div class="specs-tab-pane" id="pane-specs">
         <div class="specs-modal-content">
           <div class="specs-photo-frame">
-            <img src="images/minesafe.jpg" id="specs-photo" alt="Project Hardware View" />
+            <img src="images/minesafe.jpg" id="specs-photo" alt="Project Hardware View" / loading="lazy">
             <div class="specs-gallery-thumbs" id="specs-gallery-thumbs"></div>
           </div>
 

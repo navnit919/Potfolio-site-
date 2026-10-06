@@ -25,7 +25,7 @@
   --stage-card-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.65), 0 0 1px 1px rgba(255, 255, 255, 0.05);
 
   --text-main: #f8fafc;
-  --text-muted: #94a3b8;
+  --text-muted: #cbd5e1; /* Improved Contrast */
   --text-faint: #64748b;
 
   /* Accent Colors */
@@ -89,7 +89,7 @@
 
   --text-main: #0f172a;
   --text-muted: #475569;
-  --text-faint: #94a3b8;
+  --text-faint: #64748b; /* Improved Contrast */
 
   --accent-cyan: #0284c7;
   --accent-cyan-glow: rgba(2, 132, 199, 0.25);
@@ -3582,7 +3582,7 @@ a {
 
 .awards-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
 }
 
@@ -4997,13 +4997,14 @@ a {
 
 .honors-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
 }
 
 .honor-card {
   padding: 1.3rem 1.5rem;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
   gap: 1.1rem;
   transition: transform 0.25s var(--ease-spring), box-shadow 0.25s ease;
@@ -8278,4 +8279,40 @@ select:focus-visible {
 /* Ensure the standard thin line before doesn't mess with the new border */
 #cv-projects-section .cv-entry::before {
   display: none;
+}
+
+
+/* =========================================
+   PERFORMANCE & ACCESSIBILITY OPTIMIZATIONS
+   ========================================= */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .aurora-orb {
+    animation: none !important;
+    opacity: 0.5; /* Static fallback */
+  }
+}
+
+
+/* Mobile Overrides for Squishing */
+@media (max-width: 768px) {
+  .tech-deck-section, .terminal-simulator {
+    width: 100% !important;
+    padding: 1rem !important;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .deck-section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .glass-panel {
+    padding: 1rem !important;
+  }
 }

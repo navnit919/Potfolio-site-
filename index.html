@@ -21,6 +21,7 @@
     rel="stylesheet" />
 
   <link rel="stylesheet" href="style.css" />
+  <link rel="preload" as="image" href="images/profile_photo.jpeg" />
 </head>
 
 <body class="bookshelf-layout" data-theme="light">
@@ -116,7 +117,7 @@
       <div class="quick-pill-left">
         <span class="academic-tag">NIT Nagaland · B.Tech EEE</span>
         <span class="academic-tag score">CGPA 8.42</span>
-        <span class="academic-tag highlight-badge">🛠️ 7+ Engineered Builds</span>
+        <span class="academic-tag highlight-badge">🛠️ 8+ Projects</span>
         <span class="academic-tag status-available"><span class="status-dot-mini"></span> Available for Roles</span>
       </div>
       <div class="quick-actions-right">
@@ -170,7 +171,7 @@
           </div>
 
           <p class="hero-bio-narrative">
-            Undergraduate <strong>Electrical &amp; Electronics Engineer</strong> at <strong>NIT Nagaland (CGPA 8.42)</strong>. I develop high-performance physical hardware and intelligent software where industrial power distribution (33kV MRS Locomotive Traction at BLW), low-latency embedded firmware (&lt;5ms ESP-NOW mesh), and accelerated edge deep learning (55.1ms YOLOv8) converge.
+            Undergraduate <strong>Electrical &amp; Electronics Engineer</strong> at <strong>NIT Nagaland (CGPA 8.42)</strong>. I am a passionate engineer who enjoys building real-world hardware and smart software. I work on a variety of exciting technologies, including large-scale power systems for trains, fast wireless devices that communicate without the internet, and Artificial Intelligence (AI) programs that can see and understand the world.
           </p>
 
           <!-- Core Action Buttons -->
@@ -263,7 +264,7 @@
         <div class="telemetry-node">
           <span class="telemetry-num" data-prefix="<" data-target="5" data-suffix="ms">&lt;5ms</span>
           <span class="telemetry-label">ESP-NOW P2P Mesh</span>
-          <span class="telemetry-sub">Zero-Infra Telemetry</span>
+          <span class="telemetry-sub">Measured <5ms latency in bench testing</span>
         </div>
         <div class="telemetry-node builds">
           <span class="telemetry-num" data-target="8" data-suffix="+">8+</span>
@@ -281,7 +282,7 @@
           <span>SELECT ENGINEERED PROJECT // INTERACTIVE WORKBENCH</span>
         </div>
         <div class="deck-counter-badge">
-          <span>8 Active Builds</span>
+          <span>8+ Projects</span>
         </div>
       </div>
 
@@ -335,8 +336,8 @@
           <div class="deck-item-badge">YOLOv8 + EasyOCR</div>
         </button>
 
-        <!-- Deck Item 2: Ostero AI -->
-        <button type="button" class="tech-deck-item book-spine" data-index="2" data-category="ai" role="tab" aria-selected="false" title="Select OA Risk Screening AI">
+        <!-- Deck Item 2: OsteoCare – AI-Assisted OA Risk Screening -->
+        <button type="button" class="tech-deck-item book-spine" data-index="2" data-category="ai" role="tab" aria-selected="false" title="Select OsteoCare – AI-Assisted OA Risk Screening">
           <div class="deck-item-top">
             <span class="deck-item-code">// 03</span>
             <span class="deck-pulse-dot"></span>
@@ -347,7 +348,7 @@
             </svg>
           </div>
           <div class="deck-item-meta">
-            <h3 class="deck-item-name">OA Risk Screening AI</h3>
+            <h3 class="deck-item-name">OsteoCare – AI-Assisted OA Risk Screening</h3>
             <span class="deck-item-sub">Multimodal OA (NER Region)</span>
           </div>
           <div class="deck-item-badge">4 Languages · Offline</div>
@@ -472,13 +473,13 @@
         <p class="card-subtitle" id="card-subtitle">Team Colliders · Smart Mining Vehicle Collision Prevention</p>
 
         <p class="card-summary" id="card-summary">
-          Smart safety system by Team Colliders engineered to reduce collision risks between heavy vehicles in mines. Combines GPS, mmWave radar, ultrasonic sensors, and local ESP-NOW V2V/V2I communication (&lt;5ms, zero internet needed) with dynamic Time to Collision (TTC) mobile warnings and central fleet monitoring.
+          A smart safety system designed to stop heavy trucks from crashing in dark mining areas. It uses GPS and special radar sensors to track vehicles. If two trucks get too close, it immediately warns the drivers to stop, all without needing any internet connection.
         </p>
 
         <!-- Dynamic pill tags -->
         <div class="card-pill-row" id="card-tags">
           <span>Team Colliders</span>
-          <span>ESP-NOW (&lt;5ms)</span>
+          <span>ESP-NOW (Bench: &lt;5ms)</span>
           <span>mmWave Radar</span>
           <span>GPS &amp; V2V/V2I</span>
           <span>TTC Engine</span>
@@ -489,7 +490,7 @@
         <div class="stage-quick-specs" id="stage-quick-specs">
           <div class="quick-spec-item">
             <span class="qspec-label">Response Latency</span>
-            <strong class="qspec-val" id="qspec-latency">&lt;5 ms (ESP-NOW)</strong>
+            <strong class="qspec-val" id="qspec-latency">&lt;5 ms (bench tested)</strong>
           </div>
           <div class="quick-spec-item">
             <span class="qspec-label">Telemetry Coverage</span>
@@ -497,7 +498,7 @@
           </div>
           <div class="quick-spec-item">
             <span class="qspec-label">Deployment Status</span>
-            <strong class="qspec-val" id="qspec-status">Bench Tested &amp; Field Verified</strong>
+            <strong class="qspec-val" id="qspec-status">Bench Tested / Prototype Validated</strong>
           </div>
         </div>
 
@@ -534,7 +535,7 @@
           </div>
 
           <div class="monitor-screen-frame">
-            <img src="images/minesafe.jpg" id="stage-preview-img" alt="Engineered System Hardware Preview" />
+            <img src="images/minesafe.jpg" id="stage-preview-img" alt="Engineered System Hardware Preview" / loading="lazy">
             <div class="monitor-overlay-reticle">
               <div class="reticle-corner tl"></div>
               <div class="reticle-corner tr"></div>
@@ -557,7 +558,7 @@
       <div class="home-section-heading">
         <span class="section-tag">// engineered_disciplines</span>
         <h2 class="section-title">Core Engineering Competencies</h2>
-        <p class="section-subtitle">Bridging physical high-voltage electrical hardware, low-level silicon firmware, and real-time edge intelligence.</p>
+        <p class="section-subtitle">Connecting physical electrical hardware, embedded computer programming, and smart Artificial Intelligence to solve real-world problems.</p>
       </div>
 
       <div class="home-bento-grid">
@@ -571,7 +572,7 @@
           <span class="pillar-tag">High-Voltage Infrastructure</span>
           <h3 class="pillar-title">33kV Substation &amp; Locomotive Power</h3>
           <p class="pillar-desc">
-            Industrial engineering analysis at Banaras Locomotive Works (BLW). Investigated 33kV receiving substation switchgear, SF6 circuit breakers, numerical protection relay coordination, and 3-phase asynchronous traction motors in TAS.
+            During my internship at Banaras Locomotive Works (BLW), I studied the massive power systems that run electric trains. I gained hands-on experience by learning how high-voltage electrical substations, safety circuit breakers, and powerful train motors work together to keep the railways moving safely.
           </p>
           <div class="pillar-footer">
             <span class="pillar-stat">33kV / 6.6kV Grid</span>
@@ -626,7 +627,7 @@
           <span class="pillar-tag">Robotics &amp; Flight Avionics</span>
           <h3 class="pillar-title">Autonomous Aerial Robotics</h3>
           <p class="pillar-desc">
-            Constructed and calibrated an F450 multirotor UAV with KK2.1.5 PID flight stabilization, 30A ESC brushless motor drivers, high-discharge LiPo harness, and 2.4GHz RF telemetry during NIELIT certification.
+            I completely built and programmed an F450 flying drone from scratch. I worked on its internal flight controller, set up the electronic motor drivers, and configured the wireless remote control system to ensure it flies smoothly and balances itself in the air.
           </p>
           <div class="pillar-footer">
             <span class="pillar-stat">KK2.1.5 Avionics · 4-Axis</span>
@@ -652,7 +653,7 @@
             <span class="award-type">Industrial Certification</span>
             <span class="award-rank">Certified</span>
           </div>
-          <h4 class="award-name">33kV Locomotive Traction &amp; MRS Substation</h4>
+          <h4 class="award-name">33kV Locomotive Traction &amp; MRS Substation (Internship Study) (Internship Study)</h4>
           <p class="award-org">Banaras Locomotive Works (BLW), Indian Railways, Varanasi</p>
           <div class="award-meta-row">
             <span class="award-status">✅ Accredited Fieldwork</span>
@@ -756,49 +757,49 @@
         <div class="sheet-card" data-select-book="1">
           <span class="sheet-card-num">02</span>
           <h4>Traffic Violation AI</h4>
-          <p>Real-time edge vision pipeline detecting helmet violations, wrong-way lanes &amp; triple riding.</p>
+          <p>A smart camera system that acts like a digital traffic police. It instantly catches traffic rule breakers, such as people driving without helmets, riding with three people on a bike, or driving on the wrong side of the road.</p>
           <div class="sheet-tags"><span>YOLOv8</span><span>OpenCV</span><span>Python</span></div>
         </div>
 
         <div class="sheet-card" data-select-book="2">
           <span class="sheet-card-num">03</span>
-          <h4>Ostero · AI Health</h4>
-          <p>Non-invasive osteoarthritis gait kinematics &amp; dynamic plantar pressure analysis with XGBoost.</p>
+          <h4>OsteoCare – AI-Assisted OA Risk Screening</h4>
+          <p>A smart Artificial Intelligence application that studies how people walk and balance their feet. It helps doctors find early signs of bone diseases without needing any surgery or X-rays.</p>
           <div class="sheet-tags"><span>XGBoost</span><span>ESP32</span><span>DenseNet121</span><span>MediaPipe</span></div>
         </div>
 
         <div class="sheet-card" data-select-book="3">
           <span class="sheet-card-num">04</span>
           <h4>Embedded RC Vehicle</h4>
-          <p>Dual H-bridge high-current motor driver vehicular chassis with custom RF receiver circuitry.</p>
+          <p>A powerful, remote-controlled car that I built from scratch. I created custom electronic motor drivers and a special wireless receiver to control it from a distance.</p>
           <div class="sheet-tags"><span>Motor Drivers</span><span>RF Control</span><span>PWM</span></div>
         </div>
 
         <div class="sheet-card" data-select-book="4">
           <span class="sheet-card-num">05</span>
           <h4>F450 Multirotor UAV</h4>
-          <p>Quadcopter platform with flight stabilization calibration, 30A ESCs, and LiPo power harness.</p>
+          <p>A flying drone built completely from scratch, programmed with electronic speed controllers to ensure it flies smoothly and balances safely.</p>
           <div class="sheet-tags"><span>Flight Controller</span><span>30A ESCs</span><span>FlySky</span></div>
         </div>
 
         <div class="sheet-card" data-select-book="5">
           <span class="sheet-card-num">06</span>
           <h4>Ultrasonic Radar Bench</h4>
-          <p>Pulse time-of-flight acoustic obstacle ranging system with UART serial telemetry scope.</p>
+          <p>A clever radar system that sends out sound waves to measure exactly how far away objects are in front of it.</p>
           <div class="sheet-tags"><span>Arduino</span><span>Embedded C</span><span>HC-SR04</span></div>
         </div>
 
         <div class="sheet-card" data-select-book="6">
           <span class="sheet-card-num">07</span>
           <h4>Contact Manager</h4>
-          <p>Python CLI app with JSON persistence for robust contact lifecycle management · add, search, delete.</p>
+          <p>A handy computer program written in Python that allows you to easily save, search, edit, and delete your personal contacts.</p>
           <div class="sheet-tags"><span>Python</span><span>JSON</span><span>CLI Tool</span></div>
         </div>
 
         <div class="sheet-card" data-select-book="7">
           <span class="sheet-card-num">08</span>
           <h4>Python Adventure Game</h4>
-          <p>Interactive branching narrative engine with probabilistic randomness and state-machine game loops.</p>
+          <p>A fun, text-based adventure game where every choice you make changes the story and leads to different exciting outcomes.</p>
           <div class="sheet-tags"><span>Python</span><span>Game Dev</span><span>Random Module</span></div>
         </div>
       </div>
@@ -830,7 +831,7 @@
       <div class="specs-tab-pane" id="pane-specs">
         <div class="specs-modal-content">
           <div class="specs-photo-frame">
-            <img src="images/minesafe.jpg" id="specs-photo" alt="Project Hardware View" />
+            <img src="images/minesafe.jpg" id="specs-photo" alt="Project Hardware View" / loading="lazy">
             <div class="specs-gallery-thumbs" id="specs-gallery-thumbs"></div>
           </div>
 
