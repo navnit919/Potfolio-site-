@@ -1,4 +1,4 @@
-﻿/* =====================================================================
+/* =====================================================================
    Navnit Kumar — Portfolio Interactive Systems Controller
    Theme: Deep-Tech Cyber-Dark Titanium & Frosted Glass / Clean Studio Mode
    Features: Command Palette (Ctrl+K), Web Audio Synthesizer,
@@ -2493,7 +2493,7 @@
         intents: ["why hire", "hire", "candidate", "strengths", "why should we hire", "available", "internship opportunity", "job opportunity", "open for roles", "relocate", "remote"],
         response: "<strong>Why Navnit is an Exceptional Engineering Hire:</strong><br><br>" +
           "1. ⚡ <strong>Hardware + Software + Power Convergence:</strong> Rare ability to bridge physical 33kV substations & microcontrollers (ESP32/Arduino) with modern AI (YOLOv8, DenseNet, PyTorch, Python).<br>" +
-          "2. 🏆 <strong>Proven Track Record:</strong> 1st Place IEEE IAS Circuit Design, 1st Rank National Quantum Quiz, Hack4Brahma Winner, and accredited 4-week Indian Railways (BLW) trainee.<br>" +
+          "2. 🏆 <strong>Proven Track Record:</strong> 1st Place IEEE IAS Circuit Design, 1st Rank Institute Quantum Quiz, Hack4Brahma Winner, and accredited 4-week Indian Railways (BLW) trainee.<br>" +
           "3. 📈 <strong>Top Academic Rigor:</strong> 8.42 / 10 CGPA at National Institute of Technology (NIT) Nagaland.<br>" +
           "4. 🚀 <strong>Leadership:</strong> Secretary of Quants Club, mentoring junior engineers in microcontrollers and robotics.<br><br>" +
           "He is actively open for <strong>Engineering Internships & Research Collaborations</strong>. Contact: <a href=\"mailto:nkmaurya934124@gmail.com\" style=\"color:var(--accent-cyan); font-weight:bold; text-decoration:underline;\">nkmaurya934124@gmail.com</a>."
@@ -2608,7 +2608,7 @@
         intents: ["awards", "honors", "achievements", "hackathons", "competitions", "rank", "winner", "prize", "ieee", "quantum quiz", "hack4brahma"],
         response: "<strong>Honors, Awards & Recognitions:</strong><br><br>" +
           "• 🥇 <strong>1st Place – IEEE Circuit Design Hackathon:</strong> IEEE IAS Student Branch Chapter, NIT Nagaland.<br>" +
-          "• 🏆 <strong>1st Rank – National Quantum Quiz Championship:</strong> NIT Nagaland Technical Symposium (100+ competitors).<br>" +
+          "• 🏆 <strong>1st Rank – Institute Quantum Quiz Championship:</strong> NIT Nagaland Technical Symposium (100+ competitors).<br>" +
           "• 🚀 <strong>Winner – Hack4Brahma Regional Innovation Hackathon:</strong> Judged top in real-world impact and edge AI execution.<br>" +
           "• 🥉 <strong>3rd Prize – National Entrepreneurship Day Ideathon:</strong> NIT Nagaland Innovation Cell.<br>" +
           "• 📜 <strong>BLW Industrial Certification:</strong> Accredited 4-week fieldwork credentials by Indian Railways."
